@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>FactureFournisseur</Key>
+  <Name>FactureFournisseur</Name>
+  <Table>
+    <Tables>
+      <Key>FactureFournisseur.Date</Key>
+      <Name>FactureFournisseur.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>FactureFournisseur.FacFouEche3ance</Key>
+      <Name>FactureFournisseur.FacFouEche3ance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>FactureFournisseur.Numero</Key>
+      <Name>FactureFournisseur.Numero</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

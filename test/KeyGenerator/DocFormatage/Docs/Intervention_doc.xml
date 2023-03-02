@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Intervention</Key>
+  <Name>Intervention</Name>
+  <Table>
+    <Tables>
+      <Key>Intervention.Arrive3e</Key>
+      <Name>Intervention.Arrive3e</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.CompteRendu</Key>
+      <Name>Intervention.CompteRendu</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Date</Key>
+      <Name>Intervention.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.DateBP</Key>
+      <Name>Intervention.DateBP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.De3part</Key>
+      <Name>Intervention.De3part</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Duree</Key>
+      <Name>Intervention.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Heure</Key>
+      <Name>Intervention.Heure</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Numero</Key>
+      <Name>Intervention.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Observations</Key>
+      <Name>Intervention.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Temps_passe3</Key>
+      <Name>Intervention.Temps_passe3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Intervention.Vos_re3fe3rences</Key>
+      <Name>Intervention.Vos_re3fe3rences</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

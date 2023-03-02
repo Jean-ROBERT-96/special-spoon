@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Cate3gories_appareil</Key>
+  <Name>Cate3gories_appareil</Name>
+  <Table>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo1</Key>
+      <Name>Cate3gories_appareil.AppareilInfo1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo10</Key>
+      <Name>Cate3gories_appareil.AppareilInfo10</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo11</Key>
+      <Name>Cate3gories_appareil.AppareilInfo11</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo12</Key>
+      <Name>Cate3gories_appareil.AppareilInfo12</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo13</Key>
+      <Name>Cate3gories_appareil.AppareilInfo13</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo14</Key>
+      <Name>Cate3gories_appareil.AppareilInfo14</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo15</Key>
+      <Name>Cate3gories_appareil.AppareilInfo15</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo2</Key>
+      <Name>Cate3gories_appareil.AppareilInfo2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo3</Key>
+      <Name>Cate3gories_appareil.AppareilInfo3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo4</Key>
+      <Name>Cate3gories_appareil.AppareilInfo4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo5</Key>
+      <Name>Cate3gories_appareil.AppareilInfo5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo6</Key>
+      <Name>Cate3gories_appareil.AppareilInfo6</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo7</Key>
+      <Name>Cate3gories_appareil.AppareilInfo7</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo8</Key>
+      <Name>Cate3gories_appareil.AppareilInfo8</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.AppareilInfo9</Key>
+      <Name>Cate3gories_appareil.AppareilInfo9</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.Duree_entretien</Key>
+      <Name>Cate3gories_appareil.Duree_entretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Cate3gories_appareil.Libelle3</Key>
+      <Name>Cate3gories_appareil.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,13 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\bin\Debug\net6.0-windows\UIDesign.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\bin\Debug\net6.0-windows\UIDesign.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\bin\Debug\net6.0-windows\UIDesign.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.g.resources
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\refint\UIDesign.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\UIDesign.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\UIDesign\obj\Debug\net6.0-windows\ref\UIDesign.dll

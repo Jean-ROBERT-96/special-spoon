@@ -1,0 +1,24 @@
+-API :
+Get/Une entité
+Get/Plusieurs entités
+Post/Une entité
+Put/Une entité
+Delete/Une entité
+
+-Back :
+Connexion de l'utilisateur au début
+Gérer des Articles (Crud)
+Gérer des Clients (Crud)
+Gérer des Fournisseurs (Crud)
+Gérer des Familles (Crud)
+	Supprimer une famille si aucun article est lié
+Créer des bons de commandes
+	Système de commande automatique selon le stock
+	Activer/Désactiver les commandes automatiques
+
+-Fonctionnalités futurs :
+Identification JWT sur l'API
+Authentification sur l'application avec une adresse mail & check si il s'agit d'une adresse mail
+Commande à de multiples fournisseurs
+Ajout d'alertes selon l'état des stocks
+Ajout de la gestion des factures

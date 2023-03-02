@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AppareilsMesure</Key>
+  <Name>AppareilsMesure</Name>
+  <Table>
+    <Tables>
+      <Key>AppareilsMesure.Dernie3reRe3vision</Key>
+      <Name>AppareilsMesure.Dernie3reRe3vision</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>AppareilsMesure.NumeroSe3rie</Key>
+      <Name>AppareilsMesure.NumeroSe3rie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>AppareilsMesure.Observations</Key>
+      <Name>AppareilsMesure.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>AppareilsMesure.ProchaineRe3vision</Key>
+      <Name>AppareilsMesure.ProchaineRe3vision</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>AppareilsMesure.Reference</Key>
+      <Name>AppareilsMesure.Reference</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

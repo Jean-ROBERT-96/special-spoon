@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Types_contrat</Key>
+  <Name>Types_contrat</Name>
+  <Table>
+    <Tables>
+      <Key>Types_contrat.Commentaire</Key>
+      <Name>Types_contrat.Commentaire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Compte0</Key>
+      <Name>Types_contrat.Compte0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Compte1</Key>
+      <Name>Types_contrat.Compte1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Compte2</Key>
+      <Name>Types_contrat.Compte2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Compte3</Key>
+      <Name>Types_contrat.Compte3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Compte4</Key>
+      <Name>Types_contrat.Compte4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Compte5</Key>
+      <Name>Types_contrat.Compte5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Consignes</Key>
+      <Name>Types_contrat.Consignes</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.De3lai_intervention</Key>
+      <Name>Types_contrat.De3lai_intervention</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Duree_contrat</Key>
+      <Name>Types_contrat.Duree_contrat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Duree_entretien</Key>
+      <Name>Types_contrat.Duree_entretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Facturation</Key>
+      <Name>Types_contrat.Facturation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Libelle3</Key>
+      <Name>Types_contrat.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Nb_visites</Key>
+      <Name>Types_contrat.Nb_visites</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.NbDe3pSC</Key>
+      <Name>Types_contrat.NbDe3pSC</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Prix_petites_pie3ces</Key>
+      <Name>Types_contrat.Prix_petites_pie3ces</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Re3partitionFacture</Key>
+      <Name>Types_contrat.Re3partitionFacture</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.Reference</Key>
+      <Name>Types_contrat.Reference</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.TauxMtM</Key>
+      <Name>Types_contrat.TauxMtM</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.TauxMtS</Key>
+      <Name>Types_contrat.TauxMtS</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_contrat.TauxMtT</Key>
+      <Name>Types_contrat.TauxMtT</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

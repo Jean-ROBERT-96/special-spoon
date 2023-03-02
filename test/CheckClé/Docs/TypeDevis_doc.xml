@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TypeDevis</Key>
+  <Name>TypeDevis</Name>
+  <Table>
+    <Tables>
+      <Key>TypeDevis.CompteD0</Key>
+      <Name>TypeDevis.CompteD0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteD1</Key>
+      <Name>TypeDevis.CompteD1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteD2</Key>
+      <Name>TypeDevis.CompteD2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteD3</Key>
+      <Name>TypeDevis.CompteD3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteD4</Key>
+      <Name>TypeDevis.CompteD4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteD5</Key>
+      <Name>TypeDevis.CompteD5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteM0</Key>
+      <Name>TypeDevis.CompteM0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteM1</Key>
+      <Name>TypeDevis.CompteM1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteM2</Key>
+      <Name>TypeDevis.CompteM2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteM3</Key>
+      <Name>TypeDevis.CompteM3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteM4</Key>
+      <Name>TypeDevis.CompteM4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteM5</Key>
+      <Name>TypeDevis.CompteM5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteO0</Key>
+      <Name>TypeDevis.CompteO0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteO1</Key>
+      <Name>TypeDevis.CompteO1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteO2</Key>
+      <Name>TypeDevis.CompteO2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteO3</Key>
+      <Name>TypeDevis.CompteO3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteO4</Key>
+      <Name>TypeDevis.CompteO4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteO5</Key>
+      <Name>TypeDevis.CompteO5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteP0</Key>
+      <Name>TypeDevis.CompteP0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteP1</Key>
+      <Name>TypeDevis.CompteP1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteP2</Key>
+      <Name>TypeDevis.CompteP2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteP3</Key>
+      <Name>TypeDevis.CompteP3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteP4</Key>
+      <Name>TypeDevis.CompteP4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.CompteP5</Key>
+      <Name>TypeDevis.CompteP5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.Libelle3</Key>
+      <Name>TypeDevis.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.Taux1M</Key>
+      <Name>TypeDevis.Taux1M</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.Taux1P</Key>
+      <Name>TypeDevis.Taux1P</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.Taux2M</Key>
+      <Name>TypeDevis.Taux2M</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypeDevis.Taux2P</Key>
+      <Name>TypeDevis.Taux2P</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

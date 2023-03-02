@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Ressources\icons\align_center_icon.png" />
+    <None Remove="Ressources\icons\align_left_icon.png" />
+    <None Remove="Ressources\icons\align_right_icon.png" />
+    <None Remove="Ressources\icons\bold_icon.png" />
+    <None Remove="Ressources\icons\color_icon.png" />
+    <None Remove="Ressources\icons\h1_icon.png" />
+    <None Remove="Ressources\icons\h2_icon.png" />
+    <None Remove="Ressources\icons\h3_icon.png" />
+    <None Remove="Ressources\icons\h4_icon.png" />
+    <None Remove="Ressources\icons\h5_icon.png" />
+    <None Remove="Ressources\icons\h6_icon.png" />
+    <None Remove="Ressources\icons\hyperlink_icon.png" />
+    <None Remove="Ressources\icons\image_icon.png" />
+    <None Remove="Ressources\icons\italic_icon.png" />
+    <None Remove="Ressources\icons\size_icon.png" />
+    <None Remove="Ressources\icons\underline_icon.png" />
+    <None Remove="Ressources\icons\video_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1587.40" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Ressources\icons\align_center_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\align_left_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\align_right_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\bold_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\color_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\h1_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\h2_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\h3_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\h4_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\h5_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\h6_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\hyperlink_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\image_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\italic_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\size_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\underline_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\icons\video_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Ressources\KeyList.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

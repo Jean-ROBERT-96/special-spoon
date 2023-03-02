@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ydoAbnrRl0fv2cq9cHxIh/ABvj6vdno8g4oN9aVnlgbltIblDfYnUth2lmS99X3lcEHmfT/+pHEZaemBAcDiyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\Html\\Html.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean_\\.nuget\\packages\\microsoft.web.webview2\\1.0.1518.46\\microsoft.web.webview2.1.0.1518.46.nupkg.sha512"
+  ],
+  "logs": []
+}

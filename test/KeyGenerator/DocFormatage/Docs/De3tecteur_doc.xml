@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>De3tecteur</Key>
+  <Name>De3tecteur</Name>
+  <Table>
+    <Tables>
+      <Key>De3tecteur.Dernie3reRe3vision</Key>
+      <Name>De3tecteur.Dernie3reRe3vision</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>De3tecteur.Libelle3</Key>
+      <Name>De3tecteur.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>De3tecteur.NumeroSe3rie</Key>
+      <Name>De3tecteur.NumeroSe3rie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>De3tecteur.Observations</Key>
+      <Name>De3tecteur.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>De3tecteur.ProchaineRe3vision</Key>
+      <Name>De3tecteur.ProchaineRe3vision</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

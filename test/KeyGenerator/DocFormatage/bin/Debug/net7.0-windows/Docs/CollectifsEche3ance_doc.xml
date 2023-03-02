@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CollectifsEche3ance</Key>
+  <Name>CollectifsEche3ance</Name>
+  <Table>
+    <Tables>
+      <Key>CollectifsEche3ance.De3but</Key>
+      <Name>CollectifsEche3ance.De3but</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsEche3ance.Eche3ance</Key>
+      <Name>CollectifsEche3ance.Eche3ance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsEche3ance.Fin</Key>
+      <Name>CollectifsEche3ance.Fin</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsEche3ance.Prix</Key>
+      <Name>CollectifsEche3ance.Prix</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsEche3ance.PrixAnnuel</Key>
+      <Name>CollectifsEche3ance.PrixAnnuel</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsEche3ance.PrixInitial</Key>
+      <Name>CollectifsEche3ance.PrixInitial</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsEche3ance.Quantite3</Key>
+      <Name>CollectifsEche3ance.Quantite3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

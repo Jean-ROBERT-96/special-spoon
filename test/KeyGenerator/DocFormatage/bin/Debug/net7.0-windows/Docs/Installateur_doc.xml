@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Installateur</Key>
+  <Name>Installateur</Name>
+  <Table>
+    <Tables>
+      <Key>Installateur.Adresse1</Key>
+      <Name>Installateur.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Installateur.Adresse2</Key>
+      <Name>Installateur.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Installateur.Fax</Key>
+      <Name>Installateur.Fax</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Installateur.Nom</Key>
+      <Name>Installateur.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Installateur.Observations</Key>
+      <Name>Installateur.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Installateur.Te3le3phone</Key>
+      <Name>Installateur.Te3le3phone</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

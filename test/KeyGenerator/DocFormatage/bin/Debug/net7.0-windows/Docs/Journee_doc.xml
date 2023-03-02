@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Journee</Key>
+  <Name>Journee</Name>
+  <Table>
+    <Tables>
+      <Key>Journee.Date</Key>
+      <Name>Journee.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.De3butJournee</Key>
+      <Name>Journee.De3butJournee</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.De3butMidi</Key>
+      <Name>Journee.De3butMidi</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.De3butPause1</Key>
+      <Name>Journee.De3butPause1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.De3butPause2</Key>
+      <Name>Journee.De3butPause2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.De3butPause3</Key>
+      <Name>Journee.De3butPause3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.FinJournee</Key>
+      <Name>Journee.FinJournee</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.FinMidi</Key>
+      <Name>Journee.FinMidi</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.FinPause1</Key>
+      <Name>Journee.FinPause1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.FinPause2</Key>
+      <Name>Journee.FinPause2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Journee.FinPause3</Key>
+      <Name>Journee.FinPause3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

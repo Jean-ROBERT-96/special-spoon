@@ -1,0 +1,12 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\bin\Debug\net6.0\TestModel.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\bin\Debug\net6.0\TestModel.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\bin\Debug\net6.0\TestModel.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\refint\TestModel.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\TestModel.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\WebApplication1\TestModel\obj\Debug\net6.0\ref\TestModel.dll

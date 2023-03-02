@@ -1,0 +1,31 @@
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\bin\Debug\Chat.exe.config
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\bin\Debug\Chat.exe
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\bin\Debug\Chat.pdb
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\ChatServer.csprojAssemblyReference.cache
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\Chat.exe
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\Chat.pdb
+C:\Users\openspot\Desktop\Chat\Chat\bin\Debug\Chat.exe.config
+C:\Users\openspot\Desktop\Chat\Chat\bin\Debug\Chat.exe
+C:\Users\openspot\Desktop\Chat\Chat\bin\Debug\Chat.pdb
+C:\Users\openspot\Desktop\Chat\Chat\obj\Debug\ChatServer.csprojAssemblyReference.cache
+C:\Users\openspot\Desktop\Chat\Chat\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\openspot\Desktop\Chat\Chat\obj\Debug\Chat.exe
+C:\Users\openspot\Desktop\Chat\Chat\obj\Debug\Chat.pdb
+D:\DOCUMENTS\FORMATION\A3\Chat\Chat\bin\Debug\Chat.exe.config
+D:\DOCUMENTS\FORMATION\A3\Chat\Chat\bin\Debug\Chat.exe
+D:\DOCUMENTS\FORMATION\A3\Chat\Chat\bin\Debug\Chat.pdb
+D:\DOCUMENTS\FORMATION\A3\Chat\Chat\obj\Debug\ChatServer.csprojAssemblyReference.cache
+D:\DOCUMENTS\FORMATION\A3\Chat\Chat\obj\Debug\Chat.exe
+D:\DOCUMENTS\FORMATION\A3\Chat\Chat\obj\Debug\Chat.pdb
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\bin\Debug\Chat.exe.config
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\bin\Debug\Chat.exe
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\bin\Debug\Chat.pdb
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\obj\Debug\Chat.exe
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\obj\Debug\Chat.pdb
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\bin\Debug\Newtonsoft.Json.dll
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\bin\Debug\Newtonsoft.Json.xml
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\obj\Debug\ChatServer.csproj.CopyComplete
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\Chat\Chat\obj\Debug\ChatServer.csproj.SuggestedBindingRedirects.cache

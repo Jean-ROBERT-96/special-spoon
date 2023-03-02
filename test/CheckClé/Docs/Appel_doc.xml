@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Appel</Key>
+  <Name>Appel</Name>
+  <Table>
+    <Tables>
+      <Key>Appel.Action</Key>
+      <Name>Appel.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Appel.Action.ApiActionCommand</Key>
+          <Name>Appel.Action.ApiActionCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Appel.Action.CreateRDVCommand</Key>
+          <Name>Appel.Action.CreateRDVCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Appel.Date</Key>
+      <Name>Appel.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Appel.Date_traite3</Key>
+      <Name>Appel.Date_traite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Appel.Duree</Key>
+      <Name>Appel.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Appel.Heure</Key>
+      <Name>Appel.Heure</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Appel.Heure_traite3</Key>
+      <Name>Appel.Heure_traite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Appel.Objet</Key>
+      <Name>Appel.Objet</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Appel.Re3ponse</Key>
+      <Name>Appel.Re3ponse</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

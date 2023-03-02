@@ -1,0 +1,33 @@
+{
+  "DocsName": "Commande",
+  "Key": "commande",
+  "Tables": [
+    {
+      "Key": "commande.ajouter",
+      "Name": "Réaliser une commande",
+      "Content": "lorem ipsum",
+      "SousTables": [
+        {
+          "Key": "commande.ajouter.produit",
+          "Name": "Ajouter un produit",
+          "Content": "lorem ipsum"
+        },
+        {
+          "Key": "commande.ajouter.fournisseur",
+          "Name": "Ajouter un fournisseur",
+          "Content": "lorem ipsum"
+        }
+      ]
+    },
+    {
+      "Key": "commande.supprimer",
+      "Name": "Supprimer une commande",
+      "Content": "lorem ipsum"
+    },
+    {
+      "Key": "commande.editer",
+      "Name": "Editer une commande",
+      "Content": "lorem ipsum"
+    }
+  ]
+}

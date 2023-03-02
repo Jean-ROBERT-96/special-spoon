@@ -1,0 +1,2 @@
+14/11/2018 15:09:34 [Romain]  CONNECTION|Romain
+14/11/2018 15:10:04 [Romain]  Message de test

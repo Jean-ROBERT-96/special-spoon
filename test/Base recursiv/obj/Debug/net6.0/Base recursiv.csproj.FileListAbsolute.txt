@@ -1,0 +1,17 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\bin\Debug\net6.0\Base recursiv.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\bin\Debug\net6.0\Base recursiv.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\bin\Debug\net6.0\Base recursiv.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\bin\Debug\net6.0\Base recursiv.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\bin\Debug\net6.0\Base recursiv.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.csproj.CopyComplete
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\refint\Base recursiv.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\Base recursiv.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Base recursiv\obj\Debug\net6.0\ref\Base recursiv.dll

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etude de la recursivite", "Etude de la recursivite.csproj", "{0DB862F9-1D26-4899-B38F-0DD3EE24F9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base recursiv", "..\Base recursiv\Base recursiv.csproj", "{C1796DC2-EE6C-4D2B-883B-62C3D2853C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advance recurs", "..\Advance recurs\Advance recurs.csproj", "{ACE3AA91-9927-4899-BC6B-C71F89ACBC2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB862F9-1D26-4899-B38F-0DD3EE24F9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB862F9-1D26-4899-B38F-0DD3EE24F9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB862F9-1D26-4899-B38F-0DD3EE24F9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB862F9-1D26-4899-B38F-0DD3EE24F9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1796DC2-EE6C-4D2B-883B-62C3D2853C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1796DC2-EE6C-4D2B-883B-62C3D2853C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1796DC2-EE6C-4D2B-883B-62C3D2853C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1796DC2-EE6C-4D2B-883B-62C3D2853C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE3AA91-9927-4899-BC6B-C71F89ACBC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE3AA91-9927-4899-BC6B-C71F89ACBC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE3AA91-9927-4899-BC6B-C71F89ACBC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE3AA91-9927-4899-BC6B-C71F89ACBC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E577ABC7-AB77-4DF8-8141-2F64A6C3A2D0}
+	EndGlobalSection
+EndGlobal

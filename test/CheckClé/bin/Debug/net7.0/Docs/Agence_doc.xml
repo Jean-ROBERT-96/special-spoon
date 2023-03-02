@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Agence</Key>
+  <Name>Agence</Name>
+  <Table>
+    <Tables>
+      <Key>Agence.Adresse1</Key>
+      <Name>Agence.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Agence.Adresse2</Key>
+      <Name>Agence.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Agence.Nom</Key>
+      <Name>Agence.Nom</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

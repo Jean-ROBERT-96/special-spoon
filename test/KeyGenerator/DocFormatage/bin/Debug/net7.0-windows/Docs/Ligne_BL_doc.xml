@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Ligne_BL</Key>
+  <Name>Ligne_BL</Name>
+  <Table>
+    <Tables>
+      <Key>Ligne_BL.Commission</Key>
+      <Name>Ligne_BL.Commission</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_BL.Montant</Key>
+      <Name>Ligne_BL.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_BL.PR</Key>
+      <Name>Ligne_BL.PR</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_BL.Prix_net</Key>
+      <Name>Ligne_BL.Prix_net</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_BL.Quantite3</Key>
+      <Name>Ligne_BL.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_BL.Remise</Key>
+      <Name>Ligne_BL.Remise</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

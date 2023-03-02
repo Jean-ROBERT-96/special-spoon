@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CollectifsIntervention</Key>
+  <Name>CollectifsIntervention</Name>
+  <Table>
+    <Tables>
+      <Key>CollectifsIntervention.Duree</Key>
+      <Name>CollectifsIntervention.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsIntervention.GroupeImmeuble</Key>
+      <Name>CollectifsIntervention.GroupeImmeuble</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsIntervention.Heure</Key>
+      <Name>CollectifsIntervention.Heure</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsIntervention.Nombre</Key>
+      <Name>CollectifsIntervention.Nombre</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

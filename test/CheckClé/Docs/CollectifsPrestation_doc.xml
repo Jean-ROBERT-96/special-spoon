@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CollectifsPrestation</Key>
+  <Name>CollectifsPrestation</Name>
+  <Table>
+    <Tables>
+      <Key>CollectifsPrestation.De3but</Key>
+      <Name>CollectifsPrestation.De3but</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.De3signation</Key>
+      <Name>CollectifsPrestation.De3signation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Duree</Key>
+      <Name>CollectifsPrestation.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.DureeRemiseMES</Key>
+      <Name>CollectifsPrestation.DureeRemiseMES</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Fin</Key>
+      <Name>CollectifsPrestation.Fin</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.GroupeImmeuble</Key>
+      <Name>CollectifsPrestation.GroupeImmeuble</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.IndiceInitial</Key>
+      <Name>CollectifsPrestation.IndiceInitial</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Montant</Key>
+      <Name>CollectifsPrestation.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Ordre</Key>
+      <Name>CollectifsPrestation.Ordre</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Pe3riodicite3</Key>
+      <Name>CollectifsPrestation.Pe3riodicite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.PrixAnnuel</Key>
+      <Name>CollectifsPrestation.PrixAnnuel</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.PrixInitial</Key>
+      <Name>CollectifsPrestation.PrixInitial</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Quantite3</Key>
+      <Name>CollectifsPrestation.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.RemiseMES</Key>
+      <Name>CollectifsPrestation.RemiseMES</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsPrestation.Unite3</Key>
+      <Name>CollectifsPrestation.Unite3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

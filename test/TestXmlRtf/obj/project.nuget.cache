@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y/ta5rlrpr2ZQPTqRp8Ihd2KoaOd7Fz6Pd1ra7evKWbV5hLp6XQev2wCGAU69FULkY4TiaeBR+N95bht2CuH6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\TestXmlRtf\\TestXmlRtf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean_\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

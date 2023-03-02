@@ -1,0 +1,26 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Etude de la recursivite.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Docs\docdevis.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Docs\docfacture.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Docs\doctest.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Etude de la recursivite.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Etude de la recursivite.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Etude de la recursivite.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Etude de la recursivite.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite_MarkupCompile.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite_MarkupCompile.lref
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.g.resources
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.csproj.CopyComplete
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\refint\Etude de la recursivite.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\Etude de la recursivite.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Etude de la recursivite\obj\Debug\net6.0-windows\ref\Etude de la recursivite.dll

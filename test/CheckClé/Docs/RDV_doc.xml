@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RDV</Key>
+  <Name>RDV</Name>
+  <Table>
+    <Tables>
+      <Key>RDV.Action</Key>
+      <Name>RDV.Action</Name>
+      <Table>
+        <Tables>
+          <Key>RDV.Action.ConvertRDVToAppelCommand</Key>
+          <Name>RDV.Action.ConvertRDVToAppelCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.CreateRDVIndispoCommand</Key>
+          <Name>RDV.Action.CreateRDVIndispoCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.DevaliderRDVCommand</Key>
+          <Name>RDV.Action.DevaliderRDVCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.DuplicateRDVCommand</Key>
+          <Name>RDV.Action.DuplicateRDVCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.EncaissementRDVCommand</Key>
+          <Name>RDV.Action.EncaissementRDVCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.FacturerRDVCommand</Key>
+          <Name>RDV.Action.FacturerRDVCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.TSPOnRDVCommand</Key>
+          <Name>RDV.Action.TSPOnRDVCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>RDV.Action.ValiderRDVCommand</Key>
+          <Name>RDV.Action.ValiderRDVCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>RDV.Arrive3e</Key>
+      <Name>RDV.Arrive3e</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.CompteRendu</Key>
+      <Name>RDV.CompteRendu</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Date</Key>
+      <Name>RDV.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.DateBP</Key>
+      <Name>RDV.DateBP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.De3part</Key>
+      <Name>RDV.De3part</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Duree</Key>
+      <Name>RDV.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Heure</Key>
+      <Name>RDV.Heure</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Numero</Key>
+      <Name>RDV.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Observations</Key>
+      <Name>RDV.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Temps_passe3</Key>
+      <Name>RDV.Temps_passe3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>RDV.Vos_re3fe3rences</Key>
+      <Name>RDV.Vos_re3fe3rences</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

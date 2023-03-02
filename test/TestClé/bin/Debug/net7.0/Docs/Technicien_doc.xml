@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Technicien</Key>
+  <Name>Technicien</Name>
+  <Table>
+    <Tables>
+      <Key>Technicien.Action</Key>
+      <Name>Technicien.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Technicien.Action.CreateIndispoCommand</Key>
+          <Name>Technicien.Action.CreateIndispoCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Technicien.Adresse1</Key>
+      <Name>Technicien.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Adresse2</Key>
+      <Name>Technicien.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Code</Key>
+      <Name>Technicien.Code</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.CoûtHoraire</Key>
+      <Name>Technicien.CoûtHoraire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.CoûtHoraireAbsence</Key>
+      <Name>Technicien.CoûtHoraireAbsence</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.CoûtHoraireSupp</Key>
+      <Name>Technicien.CoûtHoraireSupp</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.InfoDocument</Key>
+      <Name>Technicien.InfoDocument</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.MobilePhotos</Key>
+      <Name>Technicien.MobilePhotos</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Nom</Key>
+      <Name>Technicien.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Nom_Pocket</Key>
+      <Name>Technicien.Nom_Pocket</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Numero_se3cu</Key>
+      <Name>Technicien.Numero_se3cu</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Observations</Key>
+      <Name>Technicien.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Ordre</Key>
+      <Name>Technicien.Ordre</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.PlanningJours</Key>
+      <Name>Technicien.PlanningJours</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Portable</Key>
+      <Name>Technicien.Portable</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Portable_pro</Key>
+      <Name>Technicien.Portable_pro</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Technicien.Te3le3phone</Key>
+      <Name>Technicien.Te3le3phone</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

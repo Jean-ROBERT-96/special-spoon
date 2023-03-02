@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Achat</Key>
+  <Docsname>Achat</Docsname>
+  <Content>Bonjour, je suis un pogona
+
+Ok?</Content>
+  <Table>
+    <Tables>
+      <Key>Achat.Action</Key>
+      <Name>Achat.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Achat.Action.GenererCommandeCommand</Key>
+          <Name>Achat.Action.GenererCommandeCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Achat.Date</Key>
+      <Name>Achat.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.De3signation</Key>
+      <Name>Achat.De3signation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Libelle3</Key>
+      <Name>Achat.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Livre3</Key>
+      <Name>Achat.Livre3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.PrixPublic</Key>
+      <Name>Achat.PrixPublic</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Prix</Key>
+      <Name>Achat.Prix</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Re3fFournisseur</Key>
+      <Name>Achat.Re3fFournisseur</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Re3fClient</Key>
+      <Name>Achat.Re3fClient</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Quantite3</Key>
+      <Name>Achat.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Achat.Montant</Key>
+      <Name>Achat.Montant</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Lignes_devi</Key>
+  <Name>Lignes_devi</Name>
+  <Table>
+    <Tables>
+      <Key>Lignes_devi.Commission</Key>
+      <Name>Lignes_devi.Commission</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.CoûtHoraire</Key>
+      <Name>Lignes_devi.CoûtHoraire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Montant</Key>
+      <Name>Lignes_devi.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.PourcentageFacture3</Key>
+      <Name>Lignes_devi.PourcentageFacture3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.PR</Key>
+      <Name>Lignes_devi.PR</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Prix_brut</Key>
+      <Name>Lignes_devi.Prix_brut</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Prix_net</Key>
+      <Name>Lignes_devi.Prix_net</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.PrixAchat</Key>
+      <Name>Lignes_devi.PrixAchat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Quantite3</Key>
+      <Name>Lignes_devi.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Quantite3Facture3e</Key>
+      <Name>Lignes_devi.Quantite3Facture3e</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Remise</Key>
+      <Name>Lignes_devi.Remise</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Taux1</Key>
+      <Name>Lignes_devi.Taux1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.Taux2</Key>
+      <Name>Lignes_devi.Taux2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.TempsPre3vu</Key>
+      <Name>Lignes_devi.TempsPre3vu</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_devi.TxMargeMO</Key>
+      <Name>Lignes_devi.TxMargeMO</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

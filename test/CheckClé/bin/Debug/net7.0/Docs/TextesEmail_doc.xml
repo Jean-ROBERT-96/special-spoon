@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TextesEmail</Key>
+  <Name>TextesEmail</Name>
+  <Table>
+    <Tables>
+      <Key>TextesEmail.Libelle3</Key>
+      <Name>TextesEmail.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TextesEmail.Objet</Key>
+      <Name>TextesEmail.Objet</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

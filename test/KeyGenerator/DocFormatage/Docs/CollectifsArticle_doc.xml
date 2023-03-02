@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CollectifsArticle</Key>
+  <Name>CollectifsArticle</Name>
+  <Table>
+    <Tables>
+      <Key>CollectifsArticle.De3signation</Key>
+      <Name>CollectifsArticle.De3signation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CollectifsArticle.PrixInitial</Key>
+      <Name>CollectifsArticle.PrixInitial</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

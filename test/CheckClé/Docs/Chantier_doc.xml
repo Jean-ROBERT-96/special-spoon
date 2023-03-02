@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Chantier</Key>
+  <Name>Chantier</Name>
+  <Table>
+    <Tables>
+      <Key>Chantier.CoûtHoraire</Key>
+      <Name>Chantier.CoûtHoraire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Date</Key>
+      <Name>Chantier.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.De3but</Key>
+      <Name>Chantier.De3but</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.De3butRe3el</Key>
+      <Name>Chantier.De3butRe3el</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Descriptif</Key>
+      <Name>Chantier.Descriptif</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Distance</Key>
+      <Name>Chantier.Distance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Eche3ance</Key>
+      <Name>Chantier.Eche3ance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Estimation</Key>
+      <Name>Chantier.Estimation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Fin</Key>
+      <Name>Chantier.Fin</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.FinRe3el</Key>
+      <Name>Chantier.FinRe3el</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.ForfaitTrajet</Key>
+      <Name>Chantier.ForfaitTrajet</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Libelle3</Key>
+      <Name>Chantier.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Numero</Key>
+      <Name>Chantier.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Reference</Key>
+      <Name>Chantier.Reference</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Signature</Key>
+      <Name>Chantier.Signature</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Taux1M</Key>
+      <Name>Chantier.Taux1M</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Taux1P</Key>
+      <Name>Chantier.Taux1P</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Taux2M</Key>
+      <Name>Chantier.Taux2M</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.Taux2P</Key>
+      <Name>Chantier.Taux2P</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.TauxAchats</Key>
+      <Name>Chantier.TauxAchats</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.TauxCoûtHS</Key>
+      <Name>Chantier.TauxCoûtHS</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.TauxCoûtMO</Key>
+      <Name>Chantier.TauxCoûtMO</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.TauxFrais</Key>
+      <Name>Chantier.TauxFrais</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Chantier.TempsTrajet</Key>
+      <Name>Chantier.TempsTrajet</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,32 @@
+-Page d'accueil
+
+-Sommaire :
+Contexte
+Base de données
+API
+Back-Office
+Front-Office
+Conclusion
+
+-Contexte :
+Pitch sur la demande du client
+"A la demande de la société Negosud, nous devons réaliser une application de gestion des stocks de vins pour un ordinateur sous Windows ainsi qu'une application web permettant la vente de vin en ligne ainsi que l'affichage de renseignement sur l'entreprise"
+
+-Base de données :
+Description de la base de données
+"Les informations seront stockées sur une base de données SQL. Pour le choix du gestionnaires, nous avons pris SQL Server pour rester dans l'esprit .NET."
+
+-API :
+Description de l'API
+"L'API permettra la communication à la base de données de manière sécurisée entre l'application back et front. Elle est réalisé sous la technologie ASP.NET."
+
+-Back-Office :
+Description du back
+"Le back permettra la gestion des stocks de vins. L'utilisation nécessitera un compte administrateur pour utiliser le logiciel."
+
+-Front-Office :
+Description du front
+"Le front permet la vente de produit et le renseignement sur la société Negosud."
+
+-Conclusion :
+Diapo de conclusion.

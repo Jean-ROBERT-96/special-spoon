@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TypesMesure</Key>
+  <Name>TypesMesure</Name>
+  <Table>
+    <Tables>
+      <Key>TypesMesure.Libelle3</Key>
+      <Name>TypesMesure.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure1</Key>
+      <Name>TypesMesure.Mesure1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure10</Key>
+      <Name>TypesMesure.Mesure10</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure11</Key>
+      <Name>TypesMesure.Mesure11</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure12</Key>
+      <Name>TypesMesure.Mesure12</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure13</Key>
+      <Name>TypesMesure.Mesure13</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure14</Key>
+      <Name>TypesMesure.Mesure14</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure15</Key>
+      <Name>TypesMesure.Mesure15</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure16</Key>
+      <Name>TypesMesure.Mesure16</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure17</Key>
+      <Name>TypesMesure.Mesure17</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure18</Key>
+      <Name>TypesMesure.Mesure18</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure19</Key>
+      <Name>TypesMesure.Mesure19</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure2</Key>
+      <Name>TypesMesure.Mesure2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure20</Key>
+      <Name>TypesMesure.Mesure20</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure3</Key>
+      <Name>TypesMesure.Mesure3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure4</Key>
+      <Name>TypesMesure.Mesure4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure5</Key>
+      <Name>TypesMesure.Mesure5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure6</Key>
+      <Name>TypesMesure.Mesure6</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure7</Key>
+      <Name>TypesMesure.Mesure7</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure8</Key>
+      <Name>TypesMesure.Mesure8</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Mesure9</Key>
+      <Name>TypesMesure.Mesure9</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite31</Key>
+      <Name>TypesMesure.Unite31</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite310</Key>
+      <Name>TypesMesure.Unite310</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite311</Key>
+      <Name>TypesMesure.Unite311</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite312</Key>
+      <Name>TypesMesure.Unite312</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite313</Key>
+      <Name>TypesMesure.Unite313</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite314</Key>
+      <Name>TypesMesure.Unite314</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite315</Key>
+      <Name>TypesMesure.Unite315</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite316</Key>
+      <Name>TypesMesure.Unite316</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite317</Key>
+      <Name>TypesMesure.Unite317</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite318</Key>
+      <Name>TypesMesure.Unite318</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite319</Key>
+      <Name>TypesMesure.Unite319</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite32</Key>
+      <Name>TypesMesure.Unite32</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite320</Key>
+      <Name>TypesMesure.Unite320</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite33</Key>
+      <Name>TypesMesure.Unite33</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite34</Key>
+      <Name>TypesMesure.Unite34</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite35</Key>
+      <Name>TypesMesure.Unite35</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite36</Key>
+      <Name>TypesMesure.Unite36</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite37</Key>
+      <Name>TypesMesure.Unite37</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite38</Key>
+      <Name>TypesMesure.Unite38</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>TypesMesure.Unite39</Key>
+      <Name>TypesMesure.Unite39</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

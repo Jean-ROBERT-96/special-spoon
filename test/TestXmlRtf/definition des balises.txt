@@ -1,0 +1,45 @@
+﻿Les Balises en XML :
+Docs
+[
+	-DocsName
+	-Key
+	-Content
+	-Tables
+	[
+		{
+			-Key
+			-Name
+			-Content
+			-Soustables
+		}
+	]
+]
+
+
+Les besoins de mises en formes :
+
+-Paragraphe								<p>
+-Retours à la lignes					<br/>
+-Insérer des niveaux de titres			<h1> à <h6>
+-Insérer des liens						<a> href="string"
+-Insérer des images						<img/> src="string"
+-Aligner								align="left, right, center"
+
+-Forme du texte : <span>
+	-changement de taille du texte		size="int"
+	-Couleur du texte prédéfini			color="hex"
+	-Mettre le texte en gras			bold="bool"
+	-Mettre le texte en italique		italic="bool"
+	-Souligner le texte					underline="bool"
+
+-Methode de lecture des contents :
+
+1) récuppérer le content en innerxml
+2) convertir le string en xml
+3) parcourir les balises et mettre en forme le texte selon les balises
+	-Créer une classe spécialement pour la construction du contenu de l'aide.
+	-Prévoir des méthodes de constructions selon les balises.
+	-Insérer le contenu dans un stackpanel via un binding ou une clé?
+
+-Création de la bibliothèque des balises :
+

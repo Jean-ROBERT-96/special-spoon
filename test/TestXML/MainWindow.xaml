@@ -1,0 +1,42 @@
+﻿<Window x:Class="TestXML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestXML"
+        xmlns:Models="clr-namespace:TestXML.Models"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TreeView x:Name="treeView" ItemsSource="{Binding}" Grid.Column="0" Margin="10" SelectedItemChanged="treeView_SelectedItemChanged">
+            <TreeView.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type Models:Docs}" ItemsSource="{Binding Path=Tables}">
+                    <TextBlock Text="{Binding Path=DocsName}"/>
+                </HierarchicalDataTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type Models:Tables}" ItemsSource="{Binding Path=SousTables}">
+                    <TextBlock Text="{Binding Path=Name}"/>
+                </HierarchicalDataTemplate>
+            </TreeView.Resources>
+        </TreeView>
+        <ContentControl x:Name="helpView" Content="{Binding ElementName=treeView, Path=SelectedItem}" Grid.Column="1" Margin="10">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type Models:Docs}">
+                    <DockPanel>
+                        <TextBlock Text="{Binding Path=DocsName}" DockPanel.Dock="Top" Margin="0,5,0,5"/>
+                        <WebBrowser DockPanel.Dock="Bottom"/>
+                    </DockPanel>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type Models:Tables}">
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=Name}" DockPanel.Dock="Top" Margin="0,5,0,5"/>
+                        <WebBrowser DockPanel.Dock="Bottom"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+    </Grid>
+</Window>

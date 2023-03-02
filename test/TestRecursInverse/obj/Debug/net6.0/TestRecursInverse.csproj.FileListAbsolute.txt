@@ -1,0 +1,15 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\bin\Debug\net6.0\TestRecursInverse.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\bin\Debug\net6.0\TestRecursInverse.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\bin\Debug\net6.0\TestRecursInverse.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\bin\Debug\net6.0\TestRecursInverse.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\bin\Debug\net6.0\TestRecursInverse.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\refint\TestRecursInverse.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\TestRecursInverse.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestRecursInverse\obj\Debug\net6.0\ref\TestRecursInverse.dll

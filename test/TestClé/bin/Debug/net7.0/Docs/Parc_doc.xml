@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Parc</Key>
+  <Name>Parc</Name>
+  <Table>
+    <Tables>
+      <Key>Parc.Charge</Key>
+      <Name>Parc.Charge</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.ClasseEnerge3tique</Key>
+      <Name>Parc.ClasseEnerge3tique</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.ClasseRendement</Key>
+      <Name>Parc.ClasseRendement</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Date_MES</Key>
+      <Name>Parc.Date_MES</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.DateFabrication</Key>
+      <Name>Parc.DateFabrication</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.DernierEntretien</Key>
+      <Name>Parc.DernierEntretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Duree_entretien_appareil</Key>
+      <Name>Parc.Duree_entretien_appareil</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Duree_garantie</Key>
+      <Name>Parc.Duree_garantie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Emplacement</Key>
+      <Name>Parc.Emplacement</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Fin_garantie</Key>
+      <Name>Parc.Fin_garantie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.N_se3rie</Key>
+      <Name>Parc.N_se3rie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Observations</Key>
+      <Name>Parc.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Prix_Brut</Key>
+      <Name>Parc.Prix_Brut</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Prix_net</Key>
+      <Name>Parc.Prix_net</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.PRMP</Key>
+      <Name>Parc.PRMP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Puissance</Key>
+      <Name>Parc.Puissance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Parc.Remise</Key>
+      <Name>Parc.Remise</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

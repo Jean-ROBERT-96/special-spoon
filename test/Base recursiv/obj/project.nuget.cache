@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aPfI3OkUtp4NmJYUnBreU9Z7aUSbeK8nmQUDYDdrcmZQ8VjY8FLrtjdHXAYayc+aT9/k1fC8UAbVqxoq8ucsXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\Base recursiv\\Base recursiv.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean_\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,52 @@
+{
+  "DocsName": "Devis",
+  "Key": "devis",
+  "Tables": [
+    {
+      "Key": "devis.add",
+      "Name": "Créer un devis",
+      "Content": "Pour créer un devis, appuyez sur l'icone plus, saisissez les informations et validez la création."
+    },
+    {
+      "Key": "devis.delete",
+      "Name": "Supprimer un devis",
+      "Content": "Pour supprimer un devis, appuyez sur l'icone delete et confirmez la suppression."
+    },
+    {
+      "Key": "devis.edit",
+      "Name": "Editer un devis",
+      "Content": "Pour éditer un devis, appuyez sur l'icone editer, modifiez les informations et validez.",
+      "SousTables": [
+        {
+          "Key": "devis.box",
+          "Name": "Editer un champs",
+          "Content": "Pour renseigner un champs, écrivez tout simplement.",
+          "SousTables": [
+            {
+              "Key": "devis.read",
+              "Name": "Lire un champs",
+              "Content": "Lisez le tout simplement."
+            }
+          ]
+        },
+        {
+          "Key": "devis.click",
+          "Name": "Cliquer sur un champs",
+          "Content": "Pour cliquer sur un champs, utilisez votre souris tout simplement."
+        },
+        {
+          "Key": "devis.screen",
+          "Name": "Regarder un champs",
+          "Content": "Pour regarder un champs, utilisez votre écran tout simplement.",
+          "SousTables": [
+            {
+              "Key": "devis.eyes",
+              "Name": "Utiliser ses yeux",
+              "Content": "Pour utiliser ses yeux, ouvrez les et regardez l'écran."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

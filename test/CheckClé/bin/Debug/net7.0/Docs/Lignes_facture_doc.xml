@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Lignes_facture</Key>
+  <Name>Lignes_facture</Name>
+  <Table>
+    <Tables>
+      <Key>Lignes_facture.Commission</Key>
+      <Name>Lignes_facture.Commission</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_facture.Montant</Key>
+      <Name>Lignes_facture.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_facture.PR</Key>
+      <Name>Lignes_facture.PR</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_facture.Prix_brut</Key>
+      <Name>Lignes_facture.Prix_brut</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_facture.Prix_net</Key>
+      <Name>Lignes_facture.Prix_net</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_facture.Quantite3</Key>
+      <Name>Lignes_facture.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_facture.Remise</Key>
+      <Name>Lignes_facture.Remise</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

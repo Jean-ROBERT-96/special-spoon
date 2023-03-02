@@ -1,0 +1,27 @@
+﻿<Window x:Class="OptiEditeur.Views.AddLink"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptiEditeur.Views"
+        mc:Ignorable="d"
+        Title="Ajouter un lien" Height="150" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="15" VerticalAlignment="Center">
+            <TextBlock Text="Insérez le lien à ajouter :" Margin="0,5,0,5"/>
+            <TextBox x:Name="linkBox" Margin="0,5,0,5"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Annuler" x:Name="cancelButton" Margin="15" Click="CancelButton"/>
+            <Button Grid.Column="1" Content="Valider" x:Name="validButton" Margin="15" Click="ValidButton"/>
+        </Grid>
+    </Grid>
+</Window>

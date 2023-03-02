@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Article</Key>
+  <Name>Article</Name>
+  <Table>
+    <Tables>
+      <Key>Article.Action</Key>
+      <Name>Article.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Article.Action.AppareilArticleCommand</Key>
+          <Name>Article.Action.AppareilArticleCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Article.Action.DuplicateArticleCommand</Key>
+          <Name>Article.Action.DuplicateArticleCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Article.Action.HistoriqueArticleCommand</Key>
+          <Name>Article.Action.HistoriqueArticleCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Article.Comple3ment</Key>
+      <Name>Article.Comple3ment</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Compte0</Key>
+      <Name>Article.Compte0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Compte1</Key>
+      <Name>Article.Compte1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Compte2</Key>
+      <Name>Article.Compte2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Compte3</Key>
+      <Name>Article.Compte3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Compte4</Key>
+      <Name>Article.Compte4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Compte5</Key>
+      <Name>Article.Compte5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.CompteAchat0</Key>
+      <Name>Article.CompteAchat0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.CompteAchat1</Key>
+      <Name>Article.CompteAchat1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Conditionnement</Key>
+      <Name>Article.Conditionnement</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Date_prix_d_achat</Key>
+      <Name>Article.Date_prix_d_achat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Disponible</Key>
+      <Name>Article.Disponible</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.DispoVe3hicules</Key>
+      <Name>Article.DispoVe3hicules</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.En_commande</Key>
+      <Name>Article.En_commande</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Gencod</Key>
+      <Name>Article.Gencod</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Libelle3</Key>
+      <Name>Article.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Observations</Key>
+      <Name>Article.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PrixPublic</Key>
+      <Name>Article.PrixPublic</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PrixRevient</Key>
+      <Name>Article.PrixRevient</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PRMP</Key>
+      <Name>Article.PRMP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PU_Achat</Key>
+      <Name>Article.PU_Achat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PU_TTC</Key>
+      <Name>Article.PU_TTC</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PU_TTC_2</Key>
+      <Name>Article.PU_TTC_2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PU_TTC_3</Key>
+      <Name>Article.PU_TTC_3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.PU_Vente</Key>
+      <Name>Article.PU_Vente</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Qte3_minimum</Key>
+      <Name>Article.Qte3_minimum</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Qte3_re3appro</Key>
+      <Name>Article.Qte3_re3appro</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Qte3Inventaire</Key>
+      <Name>Article.Qte3Inventaire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Re3fFournisseur</Key>
+      <Name>Article.Re3fFournisseur</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Re3fMarque</Key>
+      <Name>Article.Re3fMarque</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Reference</Key>
+      <Name>Article.Reference</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.RemisePP</Key>
+      <Name>Article.RemisePP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Taux1</Key>
+      <Name>Article.Taux1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.Taux2</Key>
+      <Name>Article.Taux2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Article.TempsMO</Key>
+      <Name>Article.TempsMO</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

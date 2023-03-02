@@ -1,0 +1,59 @@
+{
+   "checksum": "79931cad56d5cbba7611958b2b21e37d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13320428717039995",
+            "date_last_used": "0",
+            "guid": "966e86e3-e33a-4504-bda0-b4151954eb6e",
+            "id": "6",
+            "name": "Amazon",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://s3.amazonaws.com/amundsen/redirect/19q2/amazon.html?utm_source=win32&utm_medium=favorite"
+         }, {
+            "date_added": "13320428717039696",
+            "date_last_used": "0",
+            "guid": "cd50eeb9-5be8-4705-a73a-1b14e4d1c0d3",
+            "id": "5",
+            "name": "Booking.com",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://s3.amazonaws.com/amundsen/redirect/19q2/booking.html?utm_source=win32&utm_medium=favorite"
+         } ],
+         "date_added": "13320428717015949",
+         "date_last_used": "0",
+         "date_modified": "13320428717039995",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barre des favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13320428717015951",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Autres favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13320428717015952",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoris de l’appareil mobile",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

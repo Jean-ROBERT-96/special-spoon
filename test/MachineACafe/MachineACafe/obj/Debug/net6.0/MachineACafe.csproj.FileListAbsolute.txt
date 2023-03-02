@@ -1,0 +1,15 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\bin\Debug\net6.0\MachineACafe.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\bin\Debug\net6.0\MachineACafe.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\bin\Debug\net6.0\MachineACafe.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\bin\Debug\net6.0\MachineACafe.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\bin\Debug\net6.0\MachineACafe.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\refint\MachineACafe.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\MachineACafe.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MachineACafe\MachineACafe\obj\Debug\net6.0\ref\MachineACafe.dll

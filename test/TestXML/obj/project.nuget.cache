@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "UfIJkIBhbf3TOzuV2FDm/8oWz+VbtdZ1jDa7lpzmYbTsl5/eDy2OkJderFjeKwslJwuwaxNcy8+BbRkWTuV8jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\TestXML\\TestXML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean_\\.nuget\\packages\\eo.webbrowser\\23.1.4\\eo.webbrowser.23.1.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'EO.WebBrowser 23.1.4' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net6.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "EO.WebBrowser",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

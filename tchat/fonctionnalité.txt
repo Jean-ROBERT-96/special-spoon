@@ -1,0 +1,15 @@
+-L'utilisateur doit se connecter pour utiliser le tchat.
+-L'utilisateur doit avoir des paramètre comptes.
+-L'utilisateur peut créer des salons administrable uniquement par le créateur.
+-Le logiciel doit écouter la base de données en permanence.
+-Le logiciel doit avoir le mode dark ou light.
+-L'utilisateur peut modifier un message.
+-L'utilisateur peut supprimer un message.
+-L'utilisateur peut envoyer des images.
+-L'utilisateur peut chercher un message dans le fil du salon.
+
+Fonction API:
+check de mot de passe
+verification d'actualisation
+ajout-lecture-modif-del de données
+systeme d'id token

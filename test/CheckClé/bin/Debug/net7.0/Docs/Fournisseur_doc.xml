@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Fournisseur</Key>
+  <Name>Fournisseur</Name>
+  <Table>
+    <Tables>
+      <Key>Fournisseur.Action</Key>
+      <Name>Fournisseur.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Fournisseur.Action.FournisseurContactCommand</Key>
+          <Name>Fournisseur.Action.FournisseurContactCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Fournisseur.Action.FournisseurDocumentCommand</Key>
+          <Name>Fournisseur.Action.FournisseurDocumentCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Fournisseur.Action.FournisseurImporterTarifCommand</Key>
+          <Name>Fournisseur.Action.FournisseurImporterTarifCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Adresse1</Key>
+      <Name>Fournisseur.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Adresse2</Key>
+      <Name>Fournisseur.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Auxiliaire</Key>
+      <Name>Fournisseur.Auxiliaire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Client</Key>
+      <Name>Fournisseur.Client</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Compte</Key>
+      <Name>Fournisseur.Compte</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Contact</Key>
+      <Name>Fournisseur.Contact</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Fax</Key>
+      <Name>Fournisseur.Fax</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Franco</Key>
+      <Name>Fournisseur.Franco</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.GLN</Key>
+      <Name>Fournisseur.GLN</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Nom</Key>
+      <Name>Fournisseur.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Observations</Key>
+      <Name>Fournisseur.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Pays</Key>
+      <Name>Fournisseur.Pays</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Fournisseur.Te3le3phone</Key>
+      <Name>Fournisseur.Te3le3phone</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

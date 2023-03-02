@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Lignes_intervention</Key>
+  <Name>Lignes_intervention</Name>
+  <Table>
+    <Tables>
+      <Key>Lignes_intervention.Commission</Key>
+      <Name>Lignes_intervention.Commission</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_intervention.Montant</Key>
+      <Name>Lignes_intervention.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_intervention.PR</Key>
+      <Name>Lignes_intervention.PR</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_intervention.Prix_brut</Key>
+      <Name>Lignes_intervention.Prix_brut</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_intervention.Prix_net</Key>
+      <Name>Lignes_intervention.Prix_net</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_intervention.Quantite3</Key>
+      <Name>Lignes_intervention.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Lignes_intervention.Remise</Key>
+      <Name>Lignes_intervention.Remise</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

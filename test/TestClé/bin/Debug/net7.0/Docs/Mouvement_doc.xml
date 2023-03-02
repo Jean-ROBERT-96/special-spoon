@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Mouvement</Key>
+  <Name>Mouvement</Name>
+  <Table>
+    <Tables>
+      <Key>Mouvement.Date</Key>
+      <Name>Mouvement.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.DateFacture</Key>
+      <Name>Mouvement.DateFacture</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.De3signation</Key>
+      <Name>Mouvement.De3signation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.Libelle3</Key>
+      <Name>Mouvement.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.Montant</Key>
+      <Name>Mouvement.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.NumeroFacture</Key>
+      <Name>Mouvement.NumeroFacture</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.Prix</Key>
+      <Name>Mouvement.Prix</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.Quantite3</Key>
+      <Name>Mouvement.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.Re3fClient</Key>
+      <Name>Mouvement.Re3fClient</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mouvement.Re3fFournisseur</Key>
+      <Name>Mouvement.Re3fFournisseur</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

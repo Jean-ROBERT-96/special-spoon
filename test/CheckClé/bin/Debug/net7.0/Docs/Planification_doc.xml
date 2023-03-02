@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Planification</Key>
+  <Name>Planification</Name>
+  <Table>
+    <Tables>
+      <Key>Planification.Action</Key>
+      <Name>Planification.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Planification.Action.AnnulePlanificationCommand</Key>
+          <Name>Planification.Action.AnnulePlanificationCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Planification.PlanificationDateDebut</Key>
+      <Name>Planification.PlanificationDateDebut</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Planification.PlanificationDateFin</Key>
+      <Name>Planification.PlanificationDateFin</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Planification.PlanificationOrdreTrie</Key>
+      <Name>Planification.PlanificationOrdreTrie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Planification.SelectionAnalytique</Key>
+      <Name>Planification.SelectionAnalytique</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Planification.SelectionGroupe</Key>
+      <Name>Planification.SelectionGroupe</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Planification.SelectionTechnicien</Key>
+      <Name>Planification.SelectionTechnicien</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

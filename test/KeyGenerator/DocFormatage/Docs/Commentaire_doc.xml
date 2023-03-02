@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Commentaire</Key>
+  <Name>Commentaire</Name>
+  <Table>
+    <Tables>
+      <Key>Commentaire.Libelle3</Key>
+      <Name>Commentaire.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

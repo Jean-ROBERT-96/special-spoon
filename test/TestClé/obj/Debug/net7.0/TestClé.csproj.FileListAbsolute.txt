@@ -1,0 +1,16 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\bin\Debug\net7.0\TestClé.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\bin\Debug\net7.0\Key\KeyList.txt
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\bin\Debug\net7.0\TestClé.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\bin\Debug\net7.0\TestClé.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\bin\Debug\net7.0\TestClé.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\bin\Debug\net7.0\TestClé.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\refint\TestClé.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\TestClé.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\TestClé\obj\Debug\net7.0\ref\TestClé.dll

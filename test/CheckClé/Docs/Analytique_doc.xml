@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Analytique</Key>
+  <Name>Analytique</Name>
+  <Table>
+    <Tables>
+      <Key>Analytique.Code</Key>
+      <Name>Analytique.Code</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Analytique.Comptable</Key>
+      <Name>Analytique.Comptable</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Analytique.CompteAchat0</Key>
+      <Name>Analytique.CompteAchat0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Analytique.CompteAchat1</Key>
+      <Name>Analytique.CompteAchat1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Analytique.Libelle3</Key>
+      <Name>Analytique.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

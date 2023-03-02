@@ -1,0 +1,30 @@
+15/11/2018 11:52:39 [Romain] CONNECTION|Romain
+15/11/2018 11:52:47 [Romain] Message de test
+15/11/2018 11:53:13 [Romain] TWVzc2FnZSBkZSB0ZXN0
+15/11/2018 12:50:09 [Romain] CONNECTION|Romain
+15/11/2018 12:50:19 [Romain] NONE|Message de test
+15/11/2018 12:50:29 [Romain] CYPHER|TWVzc2FnZSBkZSB0ZXN0
+15/11/2018 12:58:33 [Romain] CONNECTION|Romain
+15/11/2018 12:58:52 [Romain] NONE|Message de test
+15/11/2018 13:02:13 [Romain] CONNECTION|Romain
+15/11/2018 13:02:25 [Romain] NONE|Message de test
+15/11/2018 13:03:37 [Romain] CONNECTION|Romain
+15/11/2018 13:03:40 [Romain] NONE|Message de test
+15/11/2018 13:22:34 [Romain] CONNECTION|Romain
+15/11/2018 13:22:40 [Romain] cryptage=NONE&message=Message de test
+15/11/2018 13:23:50 [Romain] CONNECTION|Romain
+15/11/2018 13:23:54 [Romain] cryptage=NONE&message=Message de test
+15/11/2018 13:30:21 [Romain] action=connection&user=Romain
+15/11/2018 13:30:46 [Romain] action=send&cryptage=NONE&message=Message de test
+15/11/2018 13:36:27 [Romain] action=connection&user=Romain
+15/11/2018 13:39:04 [Romain] action=connection&user=Romain
+15/11/2018 13:39:44 [Romain] action=connection&user=Romain
+15/11/2018 13:41:46 [Romain] action=connection&user=Romain
+15/11/2018 13:42:06 [Romain] action=send&cryptage=NONE&message=Message de test
+15/11/2018 13:43:30 [Romain] action=connection&user=Romain
+15/11/2018 13:43:34 [Romain] action=send&cryptage=NONE&message=Message de test
+15/11/2018 13:43:41 [Romain] action=send&cryptage=NONE&message=Message de test
+15/11/2018 13:43:44 [Romain] action=send&cryptage=NONE&message=Message de test ccc
+15/11/2018 13:43:49 [Romain] action=send&cryptage=NONE&message=Message de test ccc "
+15/11/2018 13:43:53 [Romain] action=send&cryptage=NONE&message=Message de test ccc &
+15/11/2018 13:44:15 [Romain] action=send&cryptage=CYPHER&message=Qm9uam91ciBkZSB0ZXN0

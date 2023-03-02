@@ -1,0 +1,14 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\bin\Debug\net6.0\CommonLibrary.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\bin\Debug\net6.0\CommonLibrary.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\bin\Debug\net6.0\CommonLibrary.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\bin\Debug\net6.0\CommonLibrary.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\refint\CommonLibrary.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\CommonLibrary.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\PromoAPI\CommonLibrary\obj\Debug\net6.0\ref\CommonLibrary.dll

@@ -1,0 +1,21 @@
+{
+  "DocsName": "Devis",
+  "Key": "devis",
+  "Tables": [
+    {
+      "Key": "devis.ajouter",
+      "Name": "Ajouter un devis",
+      "Content": "Pour créer un devis, appuyez sur l'icone plus, saisissez les informations et validez la création."
+    },
+    {
+      "Key": "devis.supprimer",
+      "Name": "Supprimer un devis",
+      "Content": "Pour supprimer un devis, appuyez sur l'icone delete et confirmez la suppression."
+    },
+    {
+      "Key": "devis.editer",
+      "Name": "Editer un devis",
+      "Content": "Pour éditer un devis, appuyez sur l'icone editer, modifiez les informations et validez."
+    }
+  ]
+}

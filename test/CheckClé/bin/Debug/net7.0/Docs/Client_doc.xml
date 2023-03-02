@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Client</Key>
+  <Name>Client</Name>
+  <Table>
+    <Tables>
+      <Key>Client.Action</Key>
+      <Name>Client.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Client.Action.ApiActionCommand</Key>
+          <Name>Client.Action.ApiActionCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Client.Action.CallClientCommand</Key>
+          <Name>Client.Action.CallClientCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Client.Action.CreateRDVFromClientCommand</Key>
+          <Name>Client.Action.CreateRDVFromClientCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Client.Action.PlanifierEntretienCommand</Key>
+          <Name>Client.Action.PlanifierEntretienCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Client.Action.PlanifierEntretienPeriodiqueCommand</Key>
+          <Name>Client.Action.PlanifierEntretienPeriodiqueCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Client.Action.SetLocalisationCommand</Key>
+          <Name>Client.Action.SetLocalisationCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+  </Table>
+</Docs>

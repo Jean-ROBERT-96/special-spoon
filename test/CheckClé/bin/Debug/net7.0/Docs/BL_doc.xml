@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BL</Key>
+  <Name>BL</Name>
+  <Table>
+    <Tables>
+      <Key>BL.Action</Key>
+      <Name>BL.Action</Name>
+      <Table>
+        <Tables>
+          <Key>BL.Action.FactureBLCommand</Key>
+          <Name>BL.Action.FactureBLCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>BL.Adresse1</Key>
+      <Name>BL.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Adresse2</Key>
+      <Name>BL.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Adresse3</Key>
+      <Name>BL.Adresse3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Date</Key>
+      <Name>BL.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Nb_traites</Key>
+      <Name>BL.Nb_traites</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Nom</Key>
+      <Name>BL.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Numero</Key>
+      <Name>BL.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>BL.Vos_ref1</Key>
+      <Name>BL.Vos_ref1</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Banque</Key>
+  <Name>Banque</Name>
+  <Table>
+    <Tables>
+      <Key>Banque.Adresse1</Key>
+      <Name>Banque.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Adresse2</Key>
+      <Name>Banque.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.BIC</Key>
+      <Name>Banque.BIC</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Compte_che3ques</Key>
+      <Name>Banque.Compte_che3ques</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Compte_traites</Key>
+      <Name>Banque.Compte_traites</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Fax</Key>
+      <Name>Banque.Fax</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Fichier_export_virements</Key>
+      <Name>Banque.Fichier_export_virements</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.IBAN</Key>
+      <Name>Banque.IBAN</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.ICS</Key>
+      <Name>Banque.ICS</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Journal_che3ques</Key>
+      <Name>Banque.Journal_che3ques</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Journal_traites</Key>
+      <Name>Banque.Journal_traites</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Nom</Key>
+      <Name>Banque.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.RIB</Key>
+      <Name>Banque.RIB</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Banque.Te3le3phone</Key>
+      <Name>Banque.Te3le3phone</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

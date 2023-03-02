@@ -1,0 +1,43 @@
+﻿<Window x:Class="HierarchieTestWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HierarchieTestWPF"
+        xmlns:Models="clr-namespace:HierarchieTestWPF.Models"
+        xmlns:c="clr-namespace:HierarchieTestWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TreeView x:Name="treeView" ItemsSource="{Binding docs}" Grid.Column="0" Loaded="treeView_Loaded">
+            <TreeView.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type Models:Docs}" ItemsSource="{Binding Tables}">
+                    <TextBlock Text="{Binding DocsName}"/>
+                </HierarchicalDataTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type Models:Tables}" ItemsSource="{Binding SousTables}">
+                    <TextBlock Text="{Binding Name}"/>
+                </HierarchicalDataTemplate>
+            </TreeView.Resources>
+        </TreeView>
+        <ContentControl Grid.Column="1" Content="{Binding ElementName=treeView, Path=SelectedItem}">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type Models:Docs}">
+                    <StackPanel>
+                        <TextBlock Text="{Binding ElementName=treeView, Path=SelectedItem.DocsName}" Margin="0,10,0,10"/>
+                        <TextBlock Text="{Binding ElementName=treeView, Path=SelectedItem.Content}" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type Models:Tables}">
+                    <StackPanel>
+                        <TextBlock Text="{Binding ElementName=treeView, Path=SelectedItem.Name}" Margin="0,10,0,10"/>
+                        <TextBlock Text="{Binding ElementName=treeView, Path=SelectedItem.Content}" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+    </Grid>
+</Window>

@@ -1,0 +1,144 @@
+﻿<Window x:Class="OptiEditeur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptiEditeur;assembly=OptiEditeur"
+        xmlns:Models="clr-namespace:OptiEditeur.Models"
+        xmlns:Views="clr-namespace:OptiEditeur.Views"
+        xmlns:wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="650" MinWidth="1150">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{x:Static local:MainWindow.InsertMarkLinkCommand}" CanExecute="CommandBinding_CanExecute" Executed="MarkLink_Executed"/>
+        <CommandBinding Command="{x:Static local:MainWindow.InsertMarkImageCommand}" CanExecute="ImageBinding_CanExecute" Executed="MarkImage_Executed"/>
+        <CommandBinding Command="{x:Static local:MainWindow.TablesExistCommand}" CanExecute="TablesExistBinding_CanExecute"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="strong" Gesture="CTRL+B"/>
+        <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="i" Gesture="CTRL+I"/>
+        <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="u" Gesture="CTRL+U"/>
+        <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h1" Gesture="CTRL+K"/>
+        <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h2" Gesture="CTRL+L"/>
+        <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h3" Gesture="CTRL+M"/>
+    </Window.InputBindings>
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Margin" Value="5,3,5,3"/>
+            <Setter Property="Padding" Value="2"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Menu Background="Transparent">
+            <MenuItem x:Name="fileMenu" Header="Fichier">
+                <MenuItem Header="Nouvelle documentation" Click="NewDoc"/>
+                <MenuItem Header="Ouvrir des documents..." Click="OpenDoc"/>
+                <Separator/>
+                <MenuItem x:Name="save" Header="Sauvegarder" Click="Save" Command="{x:Static local:MainWindow.TablesExistCommand}"/>
+                <MenuItem x:Name="saveAs"  Header="Sauvegarder sous..." Click="SaveAs" Command="{x:Static local:MainWindow.TablesExistCommand}"/>
+                <Separator/>
+                <MenuItem Header="Quitter" Click="QuitMenu"/>
+            </MenuItem>
+            <MenuItem x:Name="keyMenu" Header="Clés" Command="{x:Static local:MainWindow.TablesExistCommand}">
+                <MenuItem Header="Ajouter une clé existante" Click="AddKey"/>
+                <MenuItem Header="Supprimer une clé" Click="DeleteKey"/>
+            </MenuItem>
+            <MenuItem x:Name="helpMenu" Header="?">
+                <MenuItem Header="Aide" Click="Help"/>
+            </MenuItem>
+        </Menu>
+        
+        <!--TabControl-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="275"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TabControl x:Name="tabControl" SelectionChanged="TabControl_SelectionChanged" Margin="5">
+                <TabControl.Resources>
+                    <Style TargetType="TabItem">
+                        <Setter Property="Width" Value="130"/>
+                    </Style>
+                </TabControl.Resources>
+                <TabItem Header="Sommaire">
+                    <Views:TablesTreeView x:Name="tablesTreeView"/>
+                </TabItem>
+                <TabItem Header="Recherche">
+                    <Views:TablesGridView x:Name="tablesGridView"/>
+                </TabItem>
+            </TabControl>
+
+            <!--Contenu-->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <!--Nom de table-->
+                <DockPanel Grid.Row="0" VerticalAlignment="Center" Margin="10">
+                    <TextBlock Text="Nom de la table : " DockPanel.Dock="Left"/>
+                    <ContentControl x:Name="nameView" DockPanel.Dock="Right">
+                        <ContentControl.Resources>
+                            <DataTemplate DataType="{x:Type Models:Tables}">
+                                <TextBox x:Name="nameBox" Text="{Binding Path=Name}"/>
+                            </DataTemplate>
+                        </ContentControl.Resources>
+                    </ContentControl>
+                </DockPanel>
+
+                <!--Bouton de style-->
+                <StackPanel x:Name="buttonStack" Grid.Row="1" Orientation="Horizontal" Margin="5">
+                    <Button x:Name="majorButton" Content="Important" Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="strong"/>
+                    <Button x:Name="commentButton" Content="Commentaire" Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="i"/>
+                    <Button x:Name="detailsButton" Content="Précision" Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="u"/>
+                    <Button x:Name="linkButton" Content="Lien" Command="{x:Static local:MainWindow.InsertMarkLinkCommand}" CommandParameter="a"/>
+                    <Button x:Name="title1Button" Content="Titre 1" Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h1"/>
+                    <Button x:Name="title2Button" Content="Titre 2" Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h2"/>
+                    <Button x:Name="title3Button" Content="Titre 3" Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h3"/>
+                    <Button x:Name="imageButton" Content="Image" Command="{x:Static local:MainWindow.InsertMarkImageCommand}" CommandParameter="img"/>
+                </StackPanel>
+
+                <!--Edition-->
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ContentControl x:Name="contentView" Grid.Column="0">
+                        <ContentControl.Resources>
+                            <DataTemplate DataType="{x:Type Models:Tables}">
+                                <TextBox Text="{Binding Path=Content, UpdateSourceTrigger=PropertyChanged}"
+                                         TextWrapping="Wrap" AcceptsReturn="True"
+                                         SelectionChanged="TextBox_SelectionChanged"
+                                         TextChanged="TextBox_TextChanged"
+                                         Loaded="TextBox_Loaded"
+                                         Margin="5"/>
+                            </DataTemplate>
+                        </ContentControl.Resources>
+                    </ContentControl>
+                    <wpf:WebView2 x:Name="webView" NavigationStarting="WebViewCustom_NavigationStarting" Grid.Column="1"/>
+                </Grid>
+
+                <!--Sauvegarde-->
+                <Button x:Name="saveContent" Width="200" Grid.Row="3" HorizontalAlignment="Right" Content="Sauvegarder" Click="Save" Command="{x:Static local:MainWindow.TablesExistCommand}"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

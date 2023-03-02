@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Bouteille</Key>
+  <Name>Bouteille</Name>
+  <Table>
+    <Tables>
+      <Key>Bouteille.Achat</Key>
+      <Name>Bouteille.Achat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Bouteille.Code</Key>
+      <Name>Bouteille.Code</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Bouteille.Observations</Key>
+      <Name>Bouteille.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Bouteille.Qualite3</Key>
+      <Name>Bouteille.Qualite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Bouteille.Restant</Key>
+      <Name>Bouteille.Restant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Bouteille.Type</Key>
+      <Name>Bouteille.Type</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Bouteille.Volume</Key>
+      <Name>Bouteille.Volume</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,34 @@
+-Utilisateur :
+id
+prenom
+nom
+telephone
+adresse
+complement
+code postal
+ville
+mail
+mot de passe
+
+-Fournisseur :
+id
+societe
+telephone
+adresse
+complement
+code postal
+ville
+mail
+
+-Famille :
+id
+type
+description
+
+-Article :
+id
+nom
+année
+Famille
+description
+prix

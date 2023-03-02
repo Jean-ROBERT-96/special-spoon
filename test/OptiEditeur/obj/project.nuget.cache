@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ypHZ+HctCogxe4+T3XYs7Ajf+b+Bj5D2OkL1MlbrjTKmt/W16zjz3K5ZdRaUrX8dPBMZMiy4kldew+nRtCl73A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\OptiEditeur\\OptiEditeur.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean_\\.nuget\\packages\\microsoft.web.webview2\\1.0.1587.40\\microsoft.web.webview2.1.0.1587.40.nupkg.sha512"
+  ],
+  "logs": []
+}

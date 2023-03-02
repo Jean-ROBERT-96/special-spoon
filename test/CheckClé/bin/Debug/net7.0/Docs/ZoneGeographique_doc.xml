@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ZoneGeographique</Key>
+  <Name>ZoneGeographique</Name>
+  <Table>
+    <Tables>
+      <Key>ZoneGeographique.Action</Key>
+      <Name>ZoneGeographique.Action</Name>
+      <Table>
+        <Tables>
+          <Key>ZoneGeographique.Action.AssignClientsCommand</Key>
+          <Name>ZoneGeographique.Action.AssignClientsCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>ZoneGeographique.Action.ConfigurationZoneGeoCommand</Key>
+          <Name>ZoneGeographique.Action.ConfigurationZoneGeoCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>ZoneGeographique.Description</Key>
+      <Name>ZoneGeographique.Description</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ZoneGeographique.Libelle3</Key>
+      <Name>ZoneGeographique.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

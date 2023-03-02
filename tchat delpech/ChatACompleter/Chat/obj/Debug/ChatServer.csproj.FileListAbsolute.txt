@@ -1,0 +1,7 @@
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\bin\Debug\Chat.exe.config
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\bin\Debug\Chat.exe
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\bin\Debug\Chat.pdb
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\ChatServer.csprojAssemblyReference.cache
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\Chat.exe
+C:\Users\romain\Documents\Visual Studio 2017\Projects\Chat\Chat\obj\Debug\Chat.pdb

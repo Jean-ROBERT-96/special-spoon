@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Tranches_horaire</Key>
+  <Name>Tranches_horaire</Name>
+  <Table>
+    <Tables>
+      <Key>Tranches_horaire.De3butTranche</Key>
+      <Name>Tranches_horaire.De3butTranche</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tranches_horaire.FinTranche</Key>
+      <Name>Tranches_horaire.FinTranche</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tranches_horaire.Journee</Key>
+      <Name>Tranches_horaire.Journee</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tranches_horaire.Libelle3</Key>
+      <Name>Tranches_horaire.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

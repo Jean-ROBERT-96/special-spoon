@@ -1,0 +1,33 @@
+﻿<Window x:Class="OptiEditeur.Views.KeyAlert"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptiEditeur.Views"
+        mc:Ignorable="d"
+        Title="KeyAlert" Height="450" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <DockPanel Margin="20">
+            <TextBlock x:Name="messageType" Margin="20" TextAlignment="Center" DockPanel.Dock="Top" TextWrapping="Wrap"/>
+            <ListBox ItemsSource="{Binding}" DockPanel.Dock="Bottom">
+                <ListBox.Resources>
+                    <DataTemplate DataType="{x:Type local:KeyAlert}">
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ListBox.Resources>
+            </ListBox>
+        </DockPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Margin="15" Content="Non" x:Name="NoButton" Click="NoButton_Click"/>
+            <Button Grid.Column="1" Margin="15" Content="Oui" x:Name="YesButton" Click="YesButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Advance recurs.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Docs\docdevis.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Docs\docfacture.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Docs\doctest.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Advance recurs.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Advance recurs.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Advance recurs.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Advance recurs.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.csproj.CopyComplete
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\refint\Advance recurs.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\Advance recurs.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Advance recurs\obj\Debug\net6.0\ref\Advance recurs.dll

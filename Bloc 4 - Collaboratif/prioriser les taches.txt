@@ -1,0 +1,15 @@
+-Repérer les différentes fonctionnalités
+-Identifier les entités et les données
+-Concevoir les diagrammes MERISE
+-Concevoir les Maquettes Graphiques
+-Concevoir les Diagrammes UML
+-Concevoir l'API
+-Produire l'API
+-Mettre en place la base de données
+-Production BACK :
+1. Réaliser toute la partie interface
+2. Test des interfaces
+3. Créer les entités (Article, Famille, Client, Fournisseur, Bon de commande)
+4. Réaliser la logique de la page d'accueil
+5. Réaliser la logique de la page des articles et familles
+6. Réaliser la logique de la page des clients et fournisseurs

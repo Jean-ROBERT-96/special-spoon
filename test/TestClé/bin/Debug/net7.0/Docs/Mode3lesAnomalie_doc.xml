@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Mode3lesAnomalie</Key>
+  <Name>Mode3lesAnomalie</Name>
+  <Table>
+    <Tables>
+      <Key>Mode3lesAnomalie.Description</Key>
+      <Name>Mode3lesAnomalie.Description</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Mode3lesAnomalie.Libelle3</Key>
+      <Name>Mode3lesAnomalie.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

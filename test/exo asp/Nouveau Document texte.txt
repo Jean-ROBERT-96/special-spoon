@@ -1,0 +1,9 @@
+Data Access Object = DAO
+Data Access Layer = DAL => Context + DAO
+
+DAL
+Bussiness
+Services
+
+Aggregation = Element nullable
+Composition = Element non nullable

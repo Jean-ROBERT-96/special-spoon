@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Immeuble</Key>
+  <Name>Immeuble</Name>
+  <Table>
+    <Tables>
+      <Key>Immeuble.Action</Key>
+      <Name>Immeuble.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Immeuble.Action.AddAppareilCommand</Key>
+          <Name>Immeuble.Action.AddAppareilCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Adresse1</Key>
+      <Name>Immeuble.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Adresse2</Key>
+      <Name>Immeuble.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.De3butEntretien</Key>
+      <Name>Immeuble.De3butEntretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.FinEntretien</Key>
+      <Name>Immeuble.FinEntretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Gardien</Key>
+      <Name>Immeuble.Gardien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Logements</Key>
+      <Name>Immeuble.Logements</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Mobile</Key>
+      <Name>Immeuble.Mobile</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Nom</Key>
+      <Name>Immeuble.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Plan</Key>
+      <Name>Immeuble.Plan</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Immeuble.Te3le3phone</Key>
+      <Name>Immeuble.Te3le3phone</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Facture</Key>
+  <Name>Facture</Name>
+  <Table>
+    <Tables>
+      <Key>Facture.Action</Key>
+      <Name>Facture.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Facture.Action.EnvoyerEmailFactureCommand</Key>
+          <Name>Facture.Action.EnvoyerEmailFactureCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Facture.Action.FactureAvoirCommand</Key>
+          <Name>Facture.Action.FactureAvoirCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Facture.Action.FactureEncaissementCommand</Key>
+          <Name>Facture.Action.FactureEncaissementCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Facture.Adresse1</Key>
+      <Name>Facture.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Adresse2</Key>
+      <Name>Facture.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Adresse3</Key>
+      <Name>Facture.Adresse3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Date</Key>
+      <Name>Facture.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Destinataire</Key>
+      <Name>Facture.Destinataire</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Eche3ance</Key>
+      <Name>Facture.Eche3ance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Nb_traites</Key>
+      <Name>Facture.Nb_traites</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Nom</Key>
+      <Name>Facture.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Nos_re3f1</Key>
+      <Name>Facture.Nos_re3f1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Nos_re3f2</Key>
+      <Name>Facture.Nos_re3f2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Numero</Key>
+      <Name>Facture.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Relances</Key>
+      <Name>Facture.Relances</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Vos_ref1</Key>
+      <Name>Facture.Vos_ref1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Facture.Vos_ref2</Key>
+      <Name>Facture.Vos_ref2</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

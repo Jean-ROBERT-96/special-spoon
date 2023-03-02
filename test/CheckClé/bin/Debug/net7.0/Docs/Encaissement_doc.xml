@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Encaissement</Key>
+  <Name>Encaissement</Name>
+  <Table>
+    <Tables>
+      <Key>Encaissement.Action</Key>
+      <Name>Encaissement.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Encaissement.Action.AnnuleEncaissementCommand</Key>
+          <Name>Encaissement.Action.AnnuleEncaissementCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Bq_Client</Key>
+      <Name>Encaissement.Bq_Client</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Date</Key>
+      <Name>Encaissement.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Eche3ance</Key>
+      <Name>Encaissement.Eche3ance</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Libelle3</Key>
+      <Name>Encaissement.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Montant</Key>
+      <Name>Encaissement.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.N_che3que</Key>
+      <Name>Encaissement.N_che3que</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Remise</Key>
+      <Name>Encaissement.Remise</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Reste</Key>
+      <Name>Encaissement.Reste</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Encaissement.Type</Key>
+      <Name>Encaissement.Type</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

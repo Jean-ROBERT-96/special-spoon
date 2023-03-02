@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ArticlesComposant</Key>
+  <Name>ArticlesComposant</Name>
+  <Table>
+    <Tables>
+      <Key>ArticlesComposant.De3signation</Key>
+      <Name>ArticlesComposant.De3signation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.MontantVente</Key>
+      <Name>ArticlesComposant.MontantVente</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.PrixAchat</Key>
+      <Name>ArticlesComposant.PrixAchat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.PrixRevient</Key>
+      <Name>ArticlesComposant.PrixRevient</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.PrixVente</Key>
+      <Name>ArticlesComposant.PrixVente</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.Quantite3</Key>
+      <Name>ArticlesComposant.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.Taux1</Key>
+      <Name>ArticlesComposant.Taux1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>ArticlesComposant.Taux2</Key>
+      <Name>ArticlesComposant.Taux2</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

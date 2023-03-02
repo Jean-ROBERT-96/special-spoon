@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Vehicule</Key>
+  <Name>Vehicule</Name>
+  <Table>
+    <Tables>
+      <Key>Vehicule.CoûtKilome3trique</Key>
+      <Name>Vehicule.CoûtKilome3trique</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.Dernier_entretien</Key>
+      <Name>Vehicule.Dernier_entretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.DernierCT</Key>
+      <Name>Vehicule.DernierCT</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.Immatriculation</Key>
+      <Name>Vehicule.Immatriculation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.Kilome3trage</Key>
+      <Name>Vehicule.Kilome3trage</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.Libelle3</Key>
+      <Name>Vehicule.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.Prochain_entretien</Key>
+      <Name>Vehicule.Prochain_entretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Vehicule.ProchainCT</Key>
+      <Name>Vehicule.ProchainCT</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

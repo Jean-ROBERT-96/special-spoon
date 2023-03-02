@@ -1,0 +1,44 @@
+﻿<Window x:Class="MVVMTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMTest"
+        xmlns:Models="clr-namespace:MVVMTest.Models"
+        xmlns:View="clr-namespace:MVVMTest.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    
+    
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="tabControl" Grid.Column="0" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem x:Name="treeSelect" Header="Sommaire">
+                <View:DocsView x:Name="DocsViewControl" Loaded="DocsViewControl_Loaded"/>
+            </TabItem>
+            <TabItem x:Name="searchSelect" Header="Recherche">
+                <View:TablesView x:Name="TablesViewControl" Loaded="TablesViewControl_Loaded"/>
+            </TabItem>
+        </TabControl>
+        <ContentControl x:Name="treeDocs" Grid.Column="1" Content="{Binding ElementName=DocsViewControl, Path=CurrentDoc}" Margin="12">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type Models:Docs}">
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=Docsname}" Margin="0,10,0,10"/>
+                        <TextBlock Text="{Binding Path=Content}" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type Models:Tables}">
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=Name}" Margin="0,10,0,10"/>
+                        <TextBlock Text="{Binding Path=Content}" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+    </Grid>
+</Window>

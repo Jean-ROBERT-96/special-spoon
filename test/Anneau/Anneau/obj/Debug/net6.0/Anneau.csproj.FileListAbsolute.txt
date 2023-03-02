@@ -1,0 +1,15 @@
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\bin\Debug\net6.0\Anneau.exe
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\bin\Debug\net6.0\Anneau.deps.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\bin\Debug\net6.0\Anneau.runtimeconfig.json
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\bin\Debug\net6.0\Anneau.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\bin\Debug\net6.0\Anneau.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.csproj.AssemblyReference.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.AssemblyInfoInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.AssemblyInfo.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.csproj.CoreCompileInputs.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\refint\Anneau.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.pdb
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\Anneau.genruntimeconfig.cache
+C:\Users\jean_\OneDrive\Documents\CSharp\test\Anneau\Anneau\obj\Debug\net6.0\ref\Anneau.dll

@@ -1,0 +1,24 @@
+﻿<Window x:Class="OptiEditeur.Views.KeyManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptiEditeur.Views"
+        xmlns:vm="clr-namespace:OptiEditeur.ViewModels"
+        mc:Ignorable="d"
+        Title="KeyManager" Height="450" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <DockPanel>
+            <Button DockPanel.Dock="Bottom" x:Name="validButton" Content="Manager" Margin="15" Click="ValidButton" IsEnabled="False"/>
+            <TextBox DockPanel.Dock="Bottom" x:Name="searchKey" TextChanged="SearchKey_TextChanged" Margin="15,5,15,5"/>
+            <TextBlock Text="Recherche par nom de clé :" DockPanel.Dock="Bottom" Margin="15,5,15,5"/>
+            <ListBox x:Name="listView" ItemsSource="{Binding}" DockPanel.Dock="Bottom" Margin="15,5,15,5" SelectionMode="Multiple" SelectionChanged="ListView_SelectionChanged">
+                <ListBox.Resources>
+                    <DataTemplate DataType="{x:Type vm:TablesViewModel}">
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ListBox.Resources>
+            </ListBox>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+{
+  "DocsName": "Facturation",
+  "Key": "factures",
+  "Tables": [
+    {
+      "Key": "factures.add",
+      "Name": "Créer une facture",
+      "Content": "Pour créer une facture, appuyez sur l'icone plus, saisissez les informations et validez la création."
+    },
+    {
+      "Key": "factures.delete",
+      "Name": "Supprimer une facture",
+      "Content": "Pour supprimer une facture, appuyez sur l'icone delete et confirmez la suppression."
+    },
+    {
+      "Key": "facture.edit",
+      "Name": "Editer une facture",
+      "Content": "Pour éditer une facture, appuyez sur l'icone editer, modifiez les informations et validez."
+    }
+  ]
+}

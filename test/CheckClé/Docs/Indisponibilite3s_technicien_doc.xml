@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Indisponibilite3s_technicien</Key>
+  <Name>Indisponibilite3s_technicien</Name>
+  <Table>
+    <Tables>
+      <Key>Indisponibilite3s_technicien.Date</Key>
+      <Name>Indisponibilite3s_technicien.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Indisponibilite3s_technicien.Duree</Key>
+      <Name>Indisponibilite3s_technicien.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Indisponibilite3s_technicien.Heure</Key>
+      <Name>Indisponibilite3s_technicien.Heure</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Indisponibilite3s_technicien.Journee</Key>
+      <Name>Indisponibilite3s_technicien.Journee</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Indisponibilite3s_technicien.Observations</Key>
+      <Name>Indisponibilite3s_technicien.Observations</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

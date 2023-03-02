@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Types_appareil</Key>
+  <Name>Types_appareil</Name>
+  <Table>
+    <Tables>
+      <Key>Types_appareil.Duree_entretien</Key>
+      <Name>Types_appareil.Duree_entretien</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Types_appareil.Libelle3</Key>
+      <Name>Types_appareil.Libelle3</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

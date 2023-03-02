@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Tarif</Key>
+  <Name>Tarif</Name>
+  <Table>
+    <Tables>
+      <Key>Tarif.Code</Key>
+      <Name>Tarif.Code</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Compte0</Key>
+      <Name>Tarif.Compte0</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Compte1</Key>
+      <Name>Tarif.Compte1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Compte2</Key>
+      <Name>Tarif.Compte2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Compte3</Key>
+      <Name>Tarif.Compte3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Compte4</Key>
+      <Name>Tarif.Compte4</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Compte5</Key>
+      <Name>Tarif.Compte5</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Descriptif</Key>
+      <Name>Tarif.Descriptif</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.HT</Key>
+      <Name>Tarif.HT</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Libelle3</Key>
+      <Name>Tarif.Libelle3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.PRMP</Key>
+      <Name>Tarif.PRMP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.Reference</Key>
+      <Name>Tarif.Reference</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Tarif.TTC</Key>
+      <Name>Tarif.TTC</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

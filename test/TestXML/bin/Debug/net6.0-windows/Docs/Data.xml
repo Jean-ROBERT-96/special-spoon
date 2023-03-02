@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Docs>
+	<DocsName>Devis</DocsName>
+	<Key>devis</Key>
+	<Content><![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Pour le test <br/> avec des <span style="color:blue;">Balises</span> de mort</p>]]></Content>
+	<Tables>
+		<Tables>
+			<Key>devis.add</Key>
+			<Name>Ajouter un devis</Name>
+			<Content></Content>
+			<SousTables>
+				<Tables>
+					<Key>devis.add.price</Key>
+					<Name>Ajouter un prix</Name>
+					<Content>
+						<![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Pour ajouter un prix, entrez le prix dans la case prix du produit.</p>]]>
+					</Content>
+				</Tables>
+				<Tables>
+					<Key>devis.add.name</Key>
+					<Name>Ajouter un nom</Name>
+					<Content>
+						<![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Pour ajouter un nom, entrez le nom dans la case nom.</p>]]>
+					</Content>
+				</Tables>
+				<Tables>
+					<Key>devis.add.address</Key>
+					<Name>Ajouter une adresse</Name>
+					<Content>
+						<![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Pour ajouter une adresse, entrez l'adresse dans la case adresse.</p>]]>
+					</Content>
+				</Tables>
+			</SousTables>
+		</Tables>
+		<Tables>
+			<Key>devis.edit</Key>
+			<Name>Editer un devis</Name>
+			<Content>
+				<![CDATA[<link href="C:\Users\jean_\OneDrive\Documents\CSharp\test\TestXML\Docs\Master.css" rel="stylesheet"><meta charset="utf-8"><p>Pour éditer le devis, cliquez sur le bouton éditer.</p>]]>
+			</Content>
+			<SousTables>
+				<Tables>
+					<Key>devis.edit.address</Key>
+					<Name>Modifier l'adresse</Name>
+					<Content>
+						<![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Modifiez l'adresse par la case adresse.</p>]]>
+					</Content>
+				</Tables>
+				<Tables>
+					<Key>devis.edit.price</Key>
+					<Name>Modifier le prix</Name>
+					<Content>
+						<![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Modifiez le prix par la case prix.</p>]]>
+					</Content>
+				</Tables>
+			</SousTables>
+		</Tables>
+		<Tables>
+			<Key>devis.delete</Key>
+			<Name>Supprimer un devis</Name>
+			<Content>
+				<![CDATA[<link href="Master.css" rel="stylesheet"><meta charset="utf-8"><p>Pour supprimer un <bold>devis</bold>, cliquez sur le bouton supprimer au niveau <br/> du devis à supprimer.</p>]]>
+			</Content>
+		</Tables>
+	</Tables>
+</Docs>

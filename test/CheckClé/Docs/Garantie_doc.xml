@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Garantie</Key>
+  <Name>Garantie</Name>
+  <Table>
+    <Tables>
+      <Key>Garantie.Adresse1</Key>
+      <Name>Garantie.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Garantie.Adresse2</Key>
+      <Name>Garantie.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Garantie.Bordereau</Key>
+      <Name>Garantie.Bordereau</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Garantie.Date</Key>
+      <Name>Garantie.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Garantie.N_se3rie</Key>
+      <Name>Garantie.N_se3rie</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Garantie.Nom</Key>
+      <Name>Garantie.Nom</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,36 @@
+{
+  "DocsName": "Documentation",
+  "Key":  "docs",
+  "Tables": [
+    {
+      "Key": "file.add",
+      "Name": "Ajouter un fichier",
+      "Content": "Pour ajouter un fichier, appuyez sur l'icone plus et selectionnez le ficher à ajouter dans l'explorateur de fichier."
+    },
+    {
+      "Key": "file.delete",
+      "Name": "Supprimer un fichier",
+      "Content": "Pour supprimer un fichier, appuyez sur l'icone delete et confirmez la suppression."
+    },
+    {
+      "Key": "image.add",
+      "Name": "Ajouter une image",
+      "Content": "Pour ajouter une image, appuyez sur l'icone plus et selectionnez l'image à ajouter dans l'explorateur de fichier."
+    },
+    {
+      "Key": "image.delete",
+      "Name": "Supprimer une image",
+      "Content": "Pour supprimer une image, appuyez sur l'icone delete et confirmez la suppression."
+    },
+    {
+      "Key": "mp3.add",
+      "Name": "Ajouter un ficher MP3",
+      "Content": "Pour ajouter un fichier MP3, appuyez sur l'icone plus et selectionnez le ficher à ajouter dans l'explorateur de fichier."
+    },
+    {
+      "Key": "mp3.delete",
+      "Name": "Supprimer un fichier MP3",
+      "Content": "Pour supprimer un fichier MP3, appuyez sur l'icone delete et confirmez la suppression."
+    }
+  ]
+}

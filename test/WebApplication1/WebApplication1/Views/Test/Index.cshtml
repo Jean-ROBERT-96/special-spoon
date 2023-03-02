@@ -1,0 +1,11 @@
+﻿@model List<TestModel.User>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Bonjour.</h2>
+
+@foreach(TestModel.User u in Model)
+{
+    <p>Voici @u.name, agé de @u.age ans portant l'id numéro @u.id.</p>
+}

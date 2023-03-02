@@ -1,0 +1,32 @@
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.exe
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.deps.json
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.runtimeconfig.json
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.runtimeconfig.dev.json
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.dll
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\ref\MachineCafe.dll
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.pdb
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.csprojAssemblyReference.cache
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.AssemblyInfoInputs.cache
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.AssemblyInfo.cs
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.csproj.CoreCompileInputs.cache
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.dll
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\ref\MachineCafe.dll
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.pdb
+C:\Users\openspot\Source\repos\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.genruntimeconfig.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.exe
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.deps.json
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.runtimeconfig.json
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.runtimeconfig.dev.json
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.dll
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\bin\Debug\net5.0\MachineCafe.pdb
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.csproj.AssemblyReference.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.AssemblyInfoInputs.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.AssemblyInfo.cs
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.csproj.CoreCompileInputs.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.dll
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\refint\MachineCafe.dll
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.pdb
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\MachineCafe.genruntimeconfig.cache
+D:\DOCUMENTS\FORMATION\.NET & C#\MachineCafe\MachineCafe\obj\Debug\net5.0\ref\MachineCafe.dll

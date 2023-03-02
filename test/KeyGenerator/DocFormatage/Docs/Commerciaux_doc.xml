@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Commerciaux</Key>
+  <Name>Commerciaux</Name>
+  <Table>
+    <Tables>
+      <Key>Commerciaux.Adresse1</Key>
+      <Name>Commerciaux.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Adresse2</Key>
+      <Name>Commerciaux.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.CommissionD</Key>
+      <Name>Commerciaux.CommissionD</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.CommissionE</Key>
+      <Name>Commerciaux.CommissionE</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.CommissionM</Key>
+      <Name>Commerciaux.CommissionM</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.CommissionO</Key>
+      <Name>Commerciaux.CommissionO</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.CommissionP</Key>
+      <Name>Commerciaux.CommissionP</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Nom</Key>
+      <Name>Commerciaux.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Numero_se3cu</Key>
+      <Name>Commerciaux.Numero_se3cu</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Observations</Key>
+      <Name>Commerciaux.Observations</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Portable</Key>
+      <Name>Commerciaux.Portable</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Portable_pro</Key>
+      <Name>Commerciaux.Portable_pro</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Commerciaux.Te3le3phone</Key>
+      <Name>Commerciaux.Te3le3phone</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestDiversXMLtoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestDiversXMLtoWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel x:Name="AddElementText">
+            <TextBlock>
+            Bonjour, <Span FontSize="15" FontFamily="Arial">je suis du texte</Span>  temporaire.<LineBreak/>N'est-ce pas?<LineBreak/>
+            <Image Source="/img/test.jpg" Width="150"/><LineBreak/>
+            Encore un <Bold Foreground="Teal">autre texte pour</Bold> la route...<LineBreak/>
+            <Hyperlink NavigateUri="https://www.google.fr" RequestNavigate="Hyperlink_RequestNavigate">Je suis <Italic>un lien</Italic> cliquable</Hyperlink>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

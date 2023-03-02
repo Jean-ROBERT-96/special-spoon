@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "EO.WebBrowser/23.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/EO.Base.dll": {},
+          "lib/EO.WebBrowser.dll": {},
+          "lib/EO.WebEngine.dll": {}
+        },
+        "runtime": {
+          "lib/EO.Base.dll": {},
+          "lib/EO.WebBrowser.dll": {},
+          "lib/EO.WebEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EO.WebBrowser/23.1.4": {
+      "sha512": "g6WxrNcO8gmoAsUs5uYESZMdPXGgVOetMmy2Do3Ku/MKQXTZE83dw+QdNgLJbqWXBl7YUyujYhQtAucOZO53uQ==",
+      "type": "package",
+      "path": "eo.webbrowser/23.1.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eo.webbrowser.23.1.4.nupkg.sha512",
+        "eo.webbrowser.nuspec",
+        "lib/EO.Base.dll",
+        "lib/EO.Base.xml",
+        "lib/EO.WebBrowser.dll",
+        "lib/EO.WebBrowser.xml",
+        "lib/EO.WebEngine.dll",
+        "lib/EO.WebEngine.xml",
+        "tools/GACTools.exe",
+        "tools/eowp.exe"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "EO.WebBrowser >= 23.1.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jean_\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\TestXML\\TestXML.csproj",
+      "projectName": "TestXML",
+      "projectPath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\TestXML\\TestXML.csproj",
+      "packagesPath": "C:\\Users\\jean_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jean_\\OneDrive\\Documents\\CSharp\\test\\TestXML\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jean_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "EO.WebBrowser": {
+            "target": "Package",
+            "version": "[23.1.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'EO.WebBrowser 23.1.4' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net6.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "EO.WebBrowser",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

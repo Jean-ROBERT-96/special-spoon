@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenue sur la TodoList</h1>
+    <p>Ceci est une TodoList pour la forme</p>
+</div>
+<div>
+    <form action="" method="post">
+        <div class="d-flex" id="formulaire">
+            <input type="text" placeholder="Entrez votre nom" class="form-control" style="width: 250px;" name="user" required />
+            <input type="text" placeholder="Entrez la tâche" class="form-control" name="task" required/>
+            <button type="submit" name="send" class="btn"><i class="bi bi-plus-circle"></i></button>
+        </div>
+    </form>
+    <br />
+    <div class="text-center">
+        @if(false)
+        {
+
+        }
+        else
+        {
+            <p style="font-style: italic; color: gray;">Il n'y a aucun élément dans la liste.</p>
+        }
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3", "WpfApp3.csproj", "{E88FCB38-BB4A-4ECE-9684-5944C2A2E9B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIDesign", "..\UIDesign\UIDesign.csproj", "{336B1C48-D735-4D52-8703-1630DE7AB0D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E88FCB38-BB4A-4ECE-9684-5944C2A2E9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88FCB38-BB4A-4ECE-9684-5944C2A2E9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88FCB38-BB4A-4ECE-9684-5944C2A2E9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88FCB38-BB4A-4ECE-9684-5944C2A2E9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336B1C48-D735-4D52-8703-1630DE7AB0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336B1C48-D735-4D52-8703-1630DE7AB0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336B1C48-D735-4D52-8703-1630DE7AB0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336B1C48-D735-4D52-8703-1630DE7AB0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F9BA7CA-A5FB-42DA-84B5-46A53A19B723}
+	EndGlobalSection
+EndGlobal

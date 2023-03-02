@@ -1,0 +1,20 @@
+﻿-L'éditeur doit charger des documents pré-rempli en XML. La structure doit respecter la doc, les tables et sous tables.
+
+-Le contenu doit être rendu en texte simple pour le titre et en html pour le content.
+
+-L'utilisateur ne pourra choisir que des couleurs prédéfinis pour le respect des thèmes WeSav.
+
+-L'utilisateur pourra :
+	-Colorier.
+	-Souligner.
+	-Mettre en gras.
+	-Mettre en italique.
+	-Changer la taille.
+	-Insérer des titres.
+	-Intégrer des liens hypertexte.
+	-Ajouter des images.
+	-Aligner le contenu.
+
+-Le logiciel proposera le choix de plusieurs langues d'éditions.
+
+-Le logiciel génèrera le contenu sous plusieurs sous dossiers selon les langues possibles.

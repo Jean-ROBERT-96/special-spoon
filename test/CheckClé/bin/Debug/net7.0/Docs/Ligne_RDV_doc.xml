@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Ligne_RDV</Key>
+  <Name>Ligne_RDV</Name>
+  <Table>
+    <Tables>
+      <Key>Ligne_RDV.Commission</Key>
+      <Name>Ligne_RDV.Commission</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_RDV.Montant</Key>
+      <Name>Ligne_RDV.Montant</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_RDV.PR</Key>
+      <Name>Ligne_RDV.PR</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_RDV.Prix_brut</Key>
+      <Name>Ligne_RDV.Prix_brut</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_RDV.Prix_net</Key>
+      <Name>Ligne_RDV.Prix_net</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_RDV.Quantite3</Key>
+      <Name>Ligne_RDV.Quantite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Ligne_RDV.Remise</Key>
+      <Name>Ligne_RDV.Remise</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

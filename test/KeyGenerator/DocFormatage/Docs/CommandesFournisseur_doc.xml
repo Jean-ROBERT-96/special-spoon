@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CommandesFournisseur</Key>
+  <Name>CommandesFournisseur</Name>
+  <Table>
+    <Tables>
+      <Key>CommandesFournisseur.Action</Key>
+      <Name>CommandesFournisseur.Action</Name>
+      <Table>
+        <Tables>
+          <Key>CommandesFournisseur.Action.DuplicateCmdFournisseurs</Key>
+          <Name>CommandesFournisseur.Action.DuplicateCmdFournisseurs</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>CommandesFournisseur.Action.ReceptionCmdFournisseurCommand</Key>
+          <Name>CommandesFournisseur.Action.ReceptionCmdFournisseurCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Adresse1</Key>
+      <Name>CommandesFournisseur.Adresse1</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Adresse2</Key>
+      <Name>CommandesFournisseur.Adresse2</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Adresse3</Key>
+      <Name>CommandesFournisseur.Adresse3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Date</Key>
+      <Name>CommandesFournisseur.Date</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Introduction</Key>
+      <Name>CommandesFournisseur.Introduction</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Livraison</Key>
+      <Name>CommandesFournisseur.Livraison</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Nom</Key>
+      <Name>CommandesFournisseur.Nom</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Numero</Key>
+      <Name>CommandesFournisseur.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Re3fClient</Key>
+      <Name>CommandesFournisseur.Re3fClient</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>CommandesFournisseur.Re3fCommande</Key>
+      <Name>CommandesFournisseur.Re3fCommande</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>

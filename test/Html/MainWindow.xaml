@@ -1,0 +1,30 @@
+﻿<Window x:Class="Html.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Html"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+        <!--<WebBrowser x:Name="webTest" Navigating="webTest_Navigating"/>-->
+        <wv2:WebView2 x:Name="wvTest" NavigationStarting="wvTest_NavigationStarting"  Margin="20">
+            <ContextMenuService.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Copier"/>
+                    <MenuItem Header="Coller"/>
+                    <Separator/>
+                    <MenuItem Header="Zoom +"/>
+                    <MenuItem Header="Zoom -"/>
+                </ContextMenu>
+            </ContextMenuService.ContextMenu>
+            <wv2:WebView2.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </wv2:WebView2.Resources>
+        </wv2:WebView2>
+
+    </Grid>
+</Window>

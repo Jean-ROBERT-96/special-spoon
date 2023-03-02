@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Docs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Collectif</Key>
+  <Name>Collectif</Name>
+  <Table>
+    <Tables>
+      <Key>Collectif.Action</Key>
+      <Name>Collectif.Action</Name>
+      <Table>
+        <Tables>
+          <Key>Collectif.Action.AddAppareilFromCollectifCommand</Key>
+          <Name>Collectif.Action.AddAppareilFromCollectifCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Collectif.Action.DupliquerCollectifCommand</Key>
+          <Name>Collectif.Action.DupliquerCollectifCommand</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Collectif.Action.PlanificationInterventionsPériodiques</Key>
+          <Name>Collectif.Action.PlanificationInterventionsPériodiques</Name>
+          <Table />
+        </Tables>
+        <Tables>
+          <Key>Collectif.Action.RenouvelerCollectifCommand</Key>
+          <Name>Collectif.Action.RenouvelerCollectifCommand</Name>
+          <Table />
+        </Tables>
+      </Table>
+    </Tables>
+    <Tables>
+      <Key>Collectif.ConditionsIntervention</Key>
+      <Name>Collectif.ConditionsIntervention</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.De3but</Key>
+      <Name>Collectif.De3but</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.De3laiIntervention</Key>
+      <Name>Collectif.De3laiIntervention</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.De3signation</Key>
+      <Name>Collectif.De3signation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Duree</Key>
+      <Name>Collectif.Duree</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Facturation</Key>
+      <Name>Collectif.Facturation</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Fin</Key>
+      <Name>Collectif.Fin</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.ForfaitMiseEnChantier</Key>
+      <Name>Collectif.ForfaitMiseEnChantier</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.IndiceInitial</Key>
+      <Name>Collectif.IndiceInitial</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Numero</Key>
+      <Name>Collectif.Numero</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Pe3riodicite3</Key>
+      <Name>Collectif.Pe3riodicite3</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.PrixPetitesPie3ces</Key>
+      <Name>Collectif.PrixPetitesPie3ces</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.ProchEntAbsences</Key>
+      <Name>Collectif.ProchEntAbsences</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Proprie3te3sContrat</Key>
+      <Name>Collectif.Proprie3te3sContrat</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.SeuilMiseEnChantier</Key>
+      <Name>Collectif.SeuilMiseEnChantier</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Souscription</Key>
+      <Name>Collectif.Souscription</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.Terme</Key>
+      <Name>Collectif.Terme</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.TypeCollectif</Key>
+      <Name>Collectif.TypeCollectif</Name>
+      <Table />
+    </Tables>
+    <Tables>
+      <Key>Collectif.TypeContrat</Key>
+      <Name>Collectif.TypeContrat</Name>
+      <Table />
+    </Tables>
+  </Table>
+</Docs>
