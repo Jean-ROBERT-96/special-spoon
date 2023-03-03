@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:OptiEditeur;assembly=OptiEditeur"
         xmlns:Models="clr-namespace:OptiEditeur.Models"
         xmlns:Views="clr-namespace:OptiEditeur.Views"
+        xmlns:Services="clr-namespace:OptiEditeur.Services"
         xmlns:wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         mc:Ignorable="d"
         Title="MainWindow" MinHeight="650" MinWidth="1150">
@@ -13,7 +14,6 @@
         <CommandBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
         <CommandBinding Command="{x:Static local:MainWindow.InsertMarkLinkCommand}" CanExecute="CommandBinding_CanExecute" Executed="MarkLink_Executed"/>
         <CommandBinding Command="{x:Static local:MainWindow.InsertMarkImageCommand}" CanExecute="ImageBinding_CanExecute" Executed="MarkImage_Executed"/>
-        <CommandBinding Command="{x:Static local:MainWindow.TablesExistCommand}" CanExecute="TablesExistBinding_CanExecute"/>
     </Window.CommandBindings>
     <Window.InputBindings>
         <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="strong" Gesture="CTRL+B"/>
@@ -24,6 +24,7 @@
         <KeyBinding Command="{x:Static local:MainWindow.InsertMarkCommand}" CommandParameter="h3" Gesture="CTRL+M"/>
     </Window.InputBindings>
     <Window.Resources>
+        <Services:TablesExist x:Key="TablesExist"/>
         <Style TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Margin" Value="5,3,5,3"/>
@@ -46,12 +47,12 @@
                 <MenuItem Header="Nouvelle documentation" Click="NewDoc"/>
                 <MenuItem Header="Ouvrir des documents..." Click="OpenDoc"/>
                 <Separator/>
-                <MenuItem x:Name="save" Header="Sauvegarder" Click="Save" Command="{x:Static local:MainWindow.TablesExistCommand}"/>
-                <MenuItem x:Name="saveAs"  Header="Sauvegarder sous..." Click="SaveAs" Command="{x:Static local:MainWindow.TablesExistCommand}"/>
+                <MenuItem x:Name="save" Header="Sauvegarder" Click="Save" IsEnabled="{Binding TableList.Count, Converter={StaticResource TablesExist}}"/>
+                <MenuItem x:Name="saveAs"  Header="Sauvegarder sous..." Click="SaveAs" IsEnabled="{Binding TableList.Count, Converter={StaticResource TablesExist}}"/>
                 <Separator/>
                 <MenuItem Header="Quitter" Click="QuitMenu"/>
             </MenuItem>
-            <MenuItem x:Name="keyMenu" Header="Clés" Command="{x:Static local:MainWindow.TablesExistCommand}">
+            <MenuItem x:Name="keyMenu" Header="Clés" IsEnabled="{Binding TableList.Count, Converter={StaticResource TablesExist}}">
                 <MenuItem Header="Ajouter une clé existante" Click="AddKey"/>
                 <MenuItem Header="Supprimer une clé" Click="DeleteKey"/>
             </MenuItem>
@@ -77,7 +78,7 @@
                     <Views:TablesTreeView x:Name="tablesTreeView"/>
                 </TabItem>
                 <TabItem Header="Recherche">
-                    <Views:TablesGridView x:Name="tablesGridView"/>
+                    <Views:TablesGridView x:Name="tablesGridView" DataContext="{Binding Path=ListTables}"/>
                 </TabItem>
             </TabControl>
 
@@ -137,7 +138,7 @@
                 </Grid>
 
                 <!--Sauvegarde-->
-                <Button x:Name="saveContent" Width="200" Grid.Row="3" HorizontalAlignment="Right" Content="Sauvegarder" Click="Save" Command="{x:Static local:MainWindow.TablesExistCommand}"/>
+                <Button x:Name="saveContent" Width="200" Grid.Row="3" HorizontalAlignment="Right" Content="Sauvegarder" Click="Save" IsEnabled="{Binding TableList.Count, Converter={StaticResource TablesExist}}"/>
             </Grid>
         </Grid>
     </Grid>

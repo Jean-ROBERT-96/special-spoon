@@ -22,6 +22,8 @@ namespace OptiEditeur.Views
     /// </summary>
     public partial class TablesTreeView : UserControl
     {
+        private MainWindow _mainWindow;
+
         public static readonly DependencyProperty CurrentContentProperty =
             DependencyProperty.Register(
                 "CurrentContent",
@@ -37,6 +39,7 @@ namespace OptiEditeur.Views
 
         public TablesTreeView()
         {
+            _mainWindow = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
         }
 
@@ -47,7 +50,12 @@ namespace OptiEditeur.Views
 
         public void ActualizeContext()
         {
-            DataContext = TablesViewModel.TableList;
+            DataContext = _mainWindow.DataContext.TableList;
+        }
+
+        private void treeView_Loaded(object sender, RoutedEventArgs e)
+        {
+            DataContext = _mainWindow.DataContext.TableList;
         }
     }
 }

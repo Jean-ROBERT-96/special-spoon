@@ -23,6 +23,8 @@ namespace OptiEditeur.Views
     /// </summary>
     public partial class TablesGridView : UserControl
     {
+        private MainWindow _mainWindow;
+
         public static readonly DependencyProperty CurrentContentProperty =
             DependencyProperty.Register(
                 "CurrentContent",
@@ -38,6 +40,7 @@ namespace OptiEditeur.Views
 
         public TablesGridView()
         {
+            _mainWindow = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
         }
 
@@ -49,14 +52,7 @@ namespace OptiEditeur.Views
 
         private void gridView_Loaded(object sender, RoutedEventArgs e)
         {
-            if (TablesViewModel.TableList.Count > 0)
-                DataContext = TablesViewModel.TablesListing(TablesViewModel.TableList);
-        }
-
-        public void ActualizeContext()
-        {
-            if (TablesViewModel.TableList.Count > 0)
-                DataContext = TablesViewModel.TablesListing(TablesViewModel.TableList);
+            //DataContext = _mainWindow.DataContext.ListTables;
         }
     }
 }

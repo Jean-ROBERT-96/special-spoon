@@ -6,6 +6,7 @@ using OptiEditeur.Views;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -45,8 +46,15 @@ namespace OptiEditeur
         public static RoutedCommand InsertMarkImageCommand = new();
         public static RoutedCommand TablesExistCommand = new();
 
+        public new TablesViewModel DataContext
+        {
+            get => (TablesViewModel)base.DataContext;
+            set => base.DataContext = value;
+        }
+
         public MainWindow()
         {
+            DataContext = new TablesViewModel();
             InitializeComponent();
         }
 
@@ -69,15 +77,13 @@ namespace OptiEditeur
             if (result == true)
             {
                 path = fileDialog.FileNames;
-                TablesViewModel.InitValue(path);
-                tablesTreeView.ActualizeContext();
-                tablesGridView.ActualizeContext();
+                this.DataContext.InitValue(path);
             }
         }
 
         private void Save(object sender, RoutedEventArgs e)
         {
-            TablesViewModel.SaveValue(path);
+            DataContext.SaveValue(path);
         }
 
         private void SaveAs(object sender, RoutedEventArgs e)
@@ -93,7 +99,7 @@ namespace OptiEditeur
                     var newPath = $"{explorer.SelectedPath}\\{split.Last()}";
                     path[i] = newPath;
                 }
-                TablesViewModel.SaveValue(path);
+                DataContext.SaveValue(path);
             }
         }
 
@@ -121,7 +127,7 @@ namespace OptiEditeur
 
         }
         #endregion
-        
+
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             var boxView = (TextBox)sender;
@@ -236,11 +242,6 @@ namespace OptiEditeur
         private void ImageBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
             e.CanExecute = selectStart > -1 & selectLengh == 0;
-        }
-
-        private void TablesExistBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
-        {
-            e.CanExecute = TablesViewModel.TableList.Count > 0;
         }
 
         private void CommandBinding_Executed(object sender, ExecutedRoutedEventArgs e)

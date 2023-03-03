@@ -50,9 +50,9 @@ namespace OptiEditeur.Views
         {
             if (Directory.Exists(PathDocs.Text))
             {
-                TablesViewModel.CreateValue(PathDocs.Text);
-                _mainWindow.tablesTreeView.ActualizeContext();
-                _mainWindow.tablesGridView.ActualizeContext();
+                _mainWindow.DataContext.CreateValue(PathDocs.Text);
+                //_mainWindow.tablesTreeView.ActualizeContext();
+                //_mainWindow.tablesGridView.ActualizeContext();
                 Close();
                 _newDocs = null;
             }

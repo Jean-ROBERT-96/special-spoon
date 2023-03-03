@@ -4,6 +4,7 @@ using OptiEditeur.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -12,50 +13,78 @@ using System.Windows;
 
 namespace OptiEditeur.ViewModels
 {
-    public class TablesViewModel
+    public class TablesViewModel : INotifyPropertyChanged
     {
-        private static ObservableCollection<Tables> _tableList = new();
-        private static string[] _path;
-        private static List<string> _keyList;
-        private static ObservableCollection<string> _keyToAdd;
-        private static ObservableCollection<string> _keyToDelete;
+        private ObservableCollection<Tables> _tableList = new();
+        private string[] _path;
+        private List<string> _keyList;
+        private ObservableCollection<string> _keyToAdd;
+        private ObservableCollection<string> _keyToDelete;
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         #region PublicVar
-        public static ObservableCollection<Tables> TableList
+        public ObservableCollection<Tables> TableList
         {
             get => _tableList;
-            set => _tableList = value;
+            set
+            {
+                _tableList = value;
+                NotifyPropertyChanged(nameof(TableList));
+                NotifyPropertyChanged(nameof(ListTables));
+            }
         }
 
-        public static string[] Path
+        public ObservableCollection<Tables> ListTables
+        {
+            get => TablesListing(TableList);
+        }
+
+        public string[] Path
         {
             get => _path;
-            set => _path = value;
+            set
+            {
+                _path = value;
+                NotifyPropertyChanged(nameof(Path));
+            }
         }
 
-        public static List<string> KeyList
+        public List<string> KeyList
         {
             get => _keyList;
-            set => _keyList = value;
+            set
+            {
+                _keyList = value;
+                NotifyPropertyChanged(nameof(KeyList));
+            }
         }
 
-        public static ObservableCollection<string> KeyToAdd
+        public ObservableCollection<string> KeyToAdd
         {
             get => _keyToAdd;
-            set => _keyToAdd = value;
+            set
+            {
+                _keyToAdd = value;
+                NotifyPropertyChanged(nameof(KeyToAdd));
+            }
         }
 
-        public static ObservableCollection<string> KeyToDelete
+        public ObservableCollection<string> KeyToDelete
         {
             get => _keyToDelete;
-            set => _keyToDelete = value;
+            set
+            {
+                _keyToDelete = value;
+                NotifyPropertyChanged(nameof(KeyToDelete));
+            }
         }
 
         #endregion
 
-        public static void InitValue(string[] path)
+        public void InitValue(string[] path)
         {
-            TableList = new();
+            TableList.Clear();
             KeyList = new();
             var allKeys = File.ReadAllLines("./Ressources/KeyList.txt").ToList();
 
@@ -86,14 +115,15 @@ namespace OptiEditeur.ViewModels
                 }
                 KeyToDelete.Clear();
             }
+            NotifyPropertyChanged(nameof(ListTables));
 
             if (KeyToAdd.Count == 0 && KeyToDelete.Count == 0)
                 MessageBox.Show("Vos documents sont à jours.", "Documents à jours", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
-        public static void CreateValue(string path)
+        public void CreateValue(string path)
         {
-            TableList = new();
+            TableList.Clear();
             KeyList = File.ReadAllLines("./Ressources/KeyList.txt").ToList();
             KeyList.Sort();
 
@@ -132,9 +162,10 @@ namespace OptiEditeur.ViewModels
                 }
             }
             DocsSerializer.TableSerialize(path, TableList);
+            NotifyPropertyChanged(nameof(ListTables));
         }
 
-        public static void SaveValue(string[] path)
+        public void SaveValue(string[] path)
         {
             bool fileExist = true;
             foreach (var p in path)
@@ -167,9 +198,9 @@ namespace OptiEditeur.ViewModels
             }
         }
 
-        public static List<Tables> TablesListing(ObservableCollection<Tables> docs)
+        public ObservableCollection<Tables> TablesListing(ObservableCollection<Tables> docs)
         {
-            var list = new List<Tables>();
+            var list = new ObservableCollection<Tables>();
             foreach(var table in docs)
             {
                 list.Add(table);
@@ -182,7 +213,7 @@ namespace OptiEditeur.ViewModels
             return list;
         }
 
-        private static Tables TableWriter(int count, List<string> keySplit, Tables? table = null)
+        private Tables TableWriter(int count, List<string> keySplit, Tables? table = null)
         {
             if (table == null)
             {
@@ -207,6 +238,12 @@ namespace OptiEditeur.ViewModels
                     table.Table.Add(TableWriter(count, keySplit));
             }
             return table;
+        }
+
+        private void NotifyPropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

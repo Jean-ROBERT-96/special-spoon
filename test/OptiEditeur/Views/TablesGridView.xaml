@@ -12,7 +12,7 @@
             <TextBox DockPanel.Dock="Top" x:Name="searchBox" Margin="5"/>
             <DataGrid DockPanel.Dock="Bottom"
                       x:Name="gridView"
-                      ItemsSource="{Binding}"
+                      ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}"
                       AutoGenerateColumns="False"
                       IsReadOnly="True"
                       SelectionMode="Single"
