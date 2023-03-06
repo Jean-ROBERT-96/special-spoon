@@ -132,10 +132,7 @@ namespace OptiEditeur
         {
             var boxView = (TextBox)sender;
 
-            if (!String.IsNullOrEmpty(boxView.Text))
-                ActualizeView(boxView.Text);
-            else
-                ActualizeView(null);
+            ActualizeView(boxView.Text);
         }
 
         private void TextBox_SelectionChanged(object sender, RoutedEventArgs e)
@@ -192,7 +189,12 @@ namespace OptiEditeur
             if (sender is WebView2 custom)
             {
                 custom.CoreWebView2.ContextMenuRequested += CoreWebView2_ContextMenuRequested;
-                custom.CoreWebView2.SetVirtualHostNameToFolderMapping("ressources.info", $"{Environment.CurrentDirectory}\\Ressources\\Images\\", CoreWebView2HostResourceAccessKind.Allow);
+
+                string dir = $"{Environment.CurrentDirectory}\\Ressources\\Images";
+                if (!Directory.Exists(dir))
+                    Directory.CreateDirectory(dir);
+
+                custom.CoreWebView2.SetVirtualHostNameToFolderMapping("ressources.info", dir, CoreWebView2HostResourceAccessKind.Allow);
             }
 
             if (!navigate)
