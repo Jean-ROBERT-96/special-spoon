@@ -62,7 +62,7 @@ namespace MVVMTest2.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MVVMTest2;V1.0.0.0;component/views/docstreeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MVVMTest2;component/views/docstreeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\DocsTreeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

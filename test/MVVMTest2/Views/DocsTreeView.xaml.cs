@@ -42,9 +42,11 @@ namespace MVVMTest2.Views
         }
 
         private Tables _selectedContent;
+        private MainWindow _main;
 
         public DocsTreeView()
         {
+            _main = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
         }
 
@@ -61,7 +63,7 @@ namespace MVVMTest2.Views
 
         private void SelectByKey(string key)
         {
-            //_selectedContent = ViewModel.SearchTables(key);
+            _selectedContent = _main.DataContext.SearchTables(key);
         }
 
         private bool SetSelectByKey(ItemsControl tree, Tables item)

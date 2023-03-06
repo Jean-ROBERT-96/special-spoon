@@ -20,10 +20,10 @@
                 </Style>
             </TabControl.Resources>
             <TabItem Header="Sommaire">
-                <local:DocsTreeView x:Name="docsTreeView"/>
+                <local:DocsTreeView x:Name="docsTreeView" DataContext="{Binding Path=DocsList}"/>
             </TabItem>
             <TabItem Header="Recherche">
-                <local:TablesListView x:Name="tablesListView"/>
+                <local:TablesListView x:Name="tablesListView" DataContext="{Binding Path=TablesList}"/>
             </TabItem>
         </TabControl>
         <ContentControl x:Name="helpView" Grid.Column="1" Margin="10">
@@ -31,11 +31,6 @@
                 <DataTemplate DataType="{x:Type Models:Tables}">
                     <DockPanel>
                         <TextBlock DockPanel.Dock="Top" Text="{Binding Path=Name}" Margin="0,10,0,10" TextAlignment="Center"/>
-                        <!--<ScrollViewer VerticalScrollBarVisibility="Auto">
-                            <TextBlock Text="{Binding Path=Content}" TextWrapping="Wrap"/>
-                        </ScrollViewer>-->
-                        <!--<main:MyBrowser DockPanel.Dock="Bottom" CurrentContent="{Binding}"/>
-                        <WebBrowser main:WebBrowserCustomBinding.Value="{Binding}"/>-->
                         <main:WebViewCustom DockPanel.Dock="Bottom" 
                                             CurrentContent="{Binding}" 
                                             NavigationStarting="WebViewCustom_NavigationStarting"/>

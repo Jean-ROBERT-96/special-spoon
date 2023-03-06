@@ -1,5 +1,6 @@
 ﻿using Microsoft.Web.WebView2.Core;
 using MVVMTest2.Models;
+using MVVMTest2.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -24,11 +25,19 @@ namespace MVVMTest2
     /// </summary>
     public partial class MainWindow : Window
     {
-        string key = "commande.ajouter";
+        string key = "Achat.Action.GenererCommandeCommand";
         private static bool navigate;
+
+        public new DocsViewModel DataContext
+        {
+            get => (DocsViewModel)base.DataContext;
+            set => base.DataContext = value;
+        }
 
         public MainWindow()
         {
+            DataContext = new DocsViewModel();
+
             InitializeComponent();
 
             if (key != null)

@@ -3,11 +3,6 @@ C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\MVVMTest2.exe
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\Achat.xml
-C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\Data.xml
-C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\docsclient.json
-C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\docscommande.json
-C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\docsdevis.json
-C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\docsfacture.json
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\en\Data.xml
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\fr\Data.xml
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\Inter.ttf
@@ -46,3 +41,6 @@ C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\obj\Debug\net6.0-windows
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\obj\Debug\net6.0-windows\MVVMTest2.pdb
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\obj\Debug\net6.0-windows\MVVMTest2.genruntimeconfig.cache
 C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\obj\Debug\net6.0-windows\ref\MVVMTest2.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\Agence.xml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\Analytique.xml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\MVVMTest2\bin\Debug\net6.0-windows\Documentations\AppareilsMesure.xml

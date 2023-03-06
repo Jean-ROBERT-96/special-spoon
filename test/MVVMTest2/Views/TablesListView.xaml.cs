@@ -36,14 +36,12 @@ namespace MVVMTest2.Views
             set => SetValue(CurrentContentProperty, value);
         }
 
+        private MainWindow _main;
+
         public TablesListView()
         {
+            _main = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
-        }
-
-        private void listBox_Loaded(object sender, RoutedEventArgs e)
-        {
-            
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -54,18 +52,18 @@ namespace MVVMTest2.Views
 
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            /*if (searchBox.Text.Length == 0)
-                listBox.ItemsSource = ViewModel.TablesList;
+            if (searchBox.Text.Length == 0)
+                listBox.ItemsSource = _main.DataContext.TablesList;
             else
             {
                 var result = new ObservableCollection<Tables>();
-                foreach(var item in ViewModel.TablesList)
+                foreach(var item in _main.DataContext.TablesList)
                 {
                     if(item.Name.Contains(searchBox.Text, StringComparison.OrdinalIgnoreCase))
                         result.Add(item);
                 }
                 listBox.ItemsSource = result;
-            }*/
+            }
         }
     }
 }

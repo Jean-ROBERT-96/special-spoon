@@ -18,7 +18,7 @@ namespace MVVMTest2.ViewModels
 {
     public class DocsViewModel : BaseViewModel
     {
-        private ObservableCollection<Tables> _docsList;
+        private ObservableCollection<Tables> _docsList = new();
 
         public ObservableCollection<Tables> DocsList
         {
@@ -28,7 +28,16 @@ namespace MVVMTest2.ViewModels
                 _docsList = value;
                 NotifyPropertyChanged();
             }
+        }
 
+        public ObservableCollection<Tables> TablesList
+        {
+            get => TablesListing(DocsList);
+        }
+
+        public DocsViewModel()
+        {
+            InitValue();
         }
 
         public void InitValue()
@@ -84,6 +93,21 @@ namespace MVVMTest2.ViewModels
             }
 
             return null;
+        }
+
+        public ObservableCollection<Tables> TablesListing(ObservableCollection<Tables> docs)
+        {
+            var list = new ObservableCollection<Tables>();
+            foreach (var table in docs)
+            {
+                list.Add(table);
+                if (table.Table.Count > 0)
+                {
+                    var result = TablesListing(table.Table);
+                    foreach (var t in result) list.Add(t);
+                }
+            }
+            return list;
         }
     }
 }
