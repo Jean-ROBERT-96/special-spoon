@@ -1,5 +1,4 @@
-﻿using MVVMTest2.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -9,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace MVVMTest2.Models
 {
-    public class Tables : INotifyPropertyChanged, IContent
+    public class Tables : INotifyPropertyChanged
     {
         private string _key;
         private string _name;
         private string _content;
-        private ObservableCollection<Tables> _sousTables = new ObservableCollection<Tables>();
+        private ObservableCollection<Tables> _table = new ObservableCollection<Tables>();
 
         public string Key
         {
@@ -55,20 +54,20 @@ namespace MVVMTest2.Models
             }
         }
 
-        public ObservableCollection<Tables> SousTables
+        public ObservableCollection<Tables> Table
         {
             get
             {
-                return _sousTables;
+                return _table;
             }
             set
             {
-                _sousTables = value;
+                _table = value;
                 NotifyPropertyChanged("SousTables");
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         private void NotifyPropertyChanged(string propertyName)
         {

@@ -1,5 +1,4 @@
 ﻿using Microsoft.Web.WebView2.Core;
-using MVVMTest2.Interfaces;
 using MVVMTest2.Models;
 using System;
 using System.Collections.Generic;

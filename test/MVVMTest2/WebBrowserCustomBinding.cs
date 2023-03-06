@@ -1,4 +1,4 @@
-﻿using MVVMTest2.Interfaces;
+﻿using MVVMTest2.Models;
 using MVVMTest2.Views;
 using System;
 using System.CodeDom;
@@ -17,24 +17,24 @@ namespace MVVMTest2
         public static readonly DependencyProperty CurrentContentProperty =
             DependencyProperty.RegisterAttached(
                 "Value",
-                typeof(IContent),
+                typeof(Tables),
                 typeof(WebBrowserCustomBinding),
                 new PropertyMetadata(null, OnContentChanged));
 
-        public static void SetValue(DependencyObject obj, IContent value)
+        public static void SetValue(DependencyObject obj, Tables value)
         {
             obj.SetValue(CurrentContentProperty, value);
         }
 
-        public static IContent GetValue(DependencyObject obj)
+        public static Tables GetValue(DependencyObject obj)
         {
-            return (IContent)obj.GetValue(CurrentContentProperty);
+            return (Tables)obj.GetValue(CurrentContentProperty);
         }
 
         public static void OnContentChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             var self = (WebBrowser)d;
-            IContent content = (IContent)e.NewValue;
+            Tables content = (Tables)e.NewValue;
 
             if (content != null)
                 self.NavigateToString($"{File.ReadAllText("./Documentations/Master.html")}{content.Content}");

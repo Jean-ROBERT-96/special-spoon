@@ -1,5 +1,4 @@
-﻿using MVVMTest2.Interfaces;
-using MVVMTest2.Models;
+﻿using MVVMTest2.Models;
 using MVVMTest2.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -27,13 +26,13 @@ namespace MVVMTest2.Views
         public static readonly DependencyProperty CurrentContentProperty =
             DependencyProperty.Register(
                 name: "CurrentContent",
-                propertyType: typeof(IContent),
+                propertyType: typeof(Tables),
                 ownerType: typeof(DocsTreeView),
                 new PropertyMetadata(null));
 
-        public IContent CurrentContent
+        public Tables CurrentContent
         {
-            get => (IContent)GetValue(CurrentContentProperty);
+            get => (Tables)GetValue(CurrentContentProperty);
             set => SetValue(CurrentContentProperty, value);
         }
 
@@ -42,8 +41,7 @@ namespace MVVMTest2.Views
             set => SelectByKey(value);
         }
 
-        public DocsViewModel ViewModel { get; set; }
-        private IContent _selectedContent;
+        private Tables _selectedContent;
 
         public DocsTreeView()
         {
@@ -52,34 +50,21 @@ namespace MVVMTest2.Views
 
         private void treeView_Loaded(object sender, RoutedEventArgs e)
         {
-            if (ViewModel == null)
-                LoadViewModel();
-
             if(_selectedContent != null)
                 SetSelectByKey(treeView, _selectedContent);
         }
 
         private void treeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-            CurrentContent = (IContent)e.NewValue;
+            CurrentContent = (Tables)e.NewValue;
         }
 
         private void SelectByKey(string key)
         {
-            if (ViewModel == null)
-                LoadViewModel();
-
-            _selectedContent = ViewModel.SearchTables(key);
+            //_selectedContent = ViewModel.SearchTables(key);
         }
 
-        private void LoadViewModel()
-        {
-            ViewModel = new DocsViewModel();
-            ViewModel.InitValue();
-            DataContext = ViewModel.DocsList;
-        }
-
-        private bool SetSelectByKey(ItemsControl tree, IContent item)
+        private bool SetSelectByKey(ItemsControl tree, Tables item)
         {
             foreach (var i in tree.Items)
             {

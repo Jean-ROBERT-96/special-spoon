@@ -41,3 +41,5 @@ C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windo
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur.pdb
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur.genruntimeconfig.cache
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\ref\OptiEditeur.dll
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\ImageResize.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\ImageResize.baml

@@ -302,11 +302,15 @@ namespace OptiEditeur
                 if(!Directory.Exists(dir))
                     Directory.CreateDirectory(dir);
 
-                File.Copy(dialog.FileName, $"{dir}\\{dialog.SafeFileName}", true);
-                var table = tabControl.SelectedIndex == 0 ? tablesTreeView.CurrentContent : tablesGridView.CurrentContent;
-                table.Content = InsertMarkImage(table.Content, "<img src=\"{0}\">", selectStart, $"https://ressources.info/{dialog.SafeFileName}");
-                selectLengh = 0;
-                selectStart = 0;
+                var image = ImageResize.Show(dialog.FileName);
+                if(image != null)
+                {
+                    image.Save($"{dir}\\{dialog.SafeFileName}");
+                    var table = tabControl.SelectedIndex == 0 ? tablesTreeView.CurrentContent : tablesGridView.CurrentContent;
+                    table.Content = InsertMarkImage(table.Content, "<img src=\"{0}\">", selectStart, $"https://ressources.info/{dialog.SafeFileName}");
+                    selectLengh = 0;
+                    selectStart = 0;
+                }
             }
         }
 

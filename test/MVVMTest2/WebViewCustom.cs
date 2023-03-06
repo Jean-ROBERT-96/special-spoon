@@ -1,6 +1,6 @@
 ﻿using Microsoft.Web.WebView2.Core;
 using Microsoft.Web.WebView2.Wpf;
-using MVVMTest2.Interfaces;
+using MVVMTest2.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,13 +17,13 @@ namespace MVVMTest2
         public static readonly DependencyProperty CurrentContentProperty =
             DependencyProperty.Register(
                 "CurrentContent",
-                typeof(IContent),
+                typeof(Tables),
                 typeof(WebViewCustom),
                 new PropertyMetadata(null, OnContentChanged));
 
-        public IContent CurrentContent
+        public Tables CurrentContent
         {
-            get => (IContent)GetValue(CurrentContentProperty);
+            get => (Tables)GetValue(CurrentContentProperty);
             set => SetValue(CurrentContentProperty, value);
         }
 

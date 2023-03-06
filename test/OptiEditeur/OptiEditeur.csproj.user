@@ -10,6 +10,9 @@
     <Compile Update="Views\AddLink.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ImageResize.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\KeyAlert.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AddLink.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ImageResize.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\KeyAlert.xaml">

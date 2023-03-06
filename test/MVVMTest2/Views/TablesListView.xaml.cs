@@ -1,5 +1,4 @@
-﻿using MVVMTest2.Interfaces;
-using MVVMTest2.Models;
+﻿using MVVMTest2.Models;
 using MVVMTest2.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -37,8 +36,6 @@ namespace MVVMTest2.Views
             set => SetValue(CurrentContentProperty, value);
         }
 
-        public TablesViewModel ViewModel { get; set; }
-
         public TablesListView()
         {
             InitializeComponent();
@@ -46,12 +43,7 @@ namespace MVVMTest2.Views
 
         private void listBox_Loaded(object sender, RoutedEventArgs e)
         {
-            DocsViewModel docs = new DocsViewModel();
-            docs.InitValue();
-
-            ViewModel = new TablesViewModel();
-            ViewModel.InitValue(docs.DocsList);
-            DataContext = ViewModel.TablesList;
+            
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -62,7 +54,7 @@ namespace MVVMTest2.Views
 
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(searchBox.Text.Length == 0)
+            /*if (searchBox.Text.Length == 0)
                 listBox.ItemsSource = ViewModel.TablesList;
             else
             {
@@ -73,7 +65,7 @@ namespace MVVMTest2.Views
                         result.Add(item);
                 }
                 listBox.ItemsSource = result;
-            }
+            }*/
         }
     }
 }

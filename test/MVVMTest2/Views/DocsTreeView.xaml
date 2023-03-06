@@ -11,10 +11,7 @@
     <Grid>
         <TreeView x:Name="treeView" ItemsSource="{Binding}" Loaded="treeView_Loaded" SelectedItemChanged="treeView_SelectedItemChanged" Margin="10">
             <TreeView.Resources>
-                <HierarchicalDataTemplate DataType="{x:Type Models:Docs}" ItemsSource="{Binding Path=Tables}">
-                    <TextBlock Text="{Binding Path=Docsname}"/>
-                </HierarchicalDataTemplate>
-                <HierarchicalDataTemplate DataType="{x:Type Models:Tables}" ItemsSource="{Binding Path=SousTables}">
+                <HierarchicalDataTemplate DataType="{x:Type Models:Tables}" ItemsSource="{Binding Path=Table}">
                     <TextBlock Text="{Binding Path=Name}"/>
                 </HierarchicalDataTemplate>
             </TreeView.Resources>

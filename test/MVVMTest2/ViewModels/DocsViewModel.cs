@@ -1,5 +1,4 @@
-﻿using MVVMTest2.Interfaces;
-using MVVMTest2.Models;
+﻿using MVVMTest2.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -19,9 +18,9 @@ namespace MVVMTest2.ViewModels
 {
     public class DocsViewModel : BaseViewModel
     {
-        private ObservableCollection<Docs> _docsList;
+        private ObservableCollection<Tables> _docsList;
 
-        public ObservableCollection<Docs> DocsList
+        public ObservableCollection<Tables> DocsList
         {
             get => _docsList;
             set
@@ -34,17 +33,17 @@ namespace MVVMTest2.ViewModels
 
         public void InitValue()
         {
-            DocsList = new ObservableCollection<Docs>();
+            DocsList = new ObservableCollection<Tables>();
 
             string[] path = Directory.GetFiles(@"./Documentations/", "*.xml");
             foreach (string p in path)
             {
                 try
                 {
-                    var serializer = new XmlSerializer(typeof(Docs));
+                    var serializer = new XmlSerializer(typeof(Tables));
                     using (var reader = new FileStream(p, FileMode.Open))
                     {
-                        DocsList.Add((Docs)serializer.Deserialize(reader));
+                        DocsList.Add((Tables)serializer.Deserialize(reader));
                     }
                 }
                 catch (Exception ex)
@@ -52,31 +51,18 @@ namespace MVVMTest2.ViewModels
                     MessageBox.Show(ex.ToString());
                 }
             }
-
-            foreach (var doc in DocsList)
-            {
-                if(doc.Content == null || doc.Content == string.Empty)
-                {
-                    doc.Content = $"Tables de \"{doc.Docsname}\" :\n\n";
-                    foreach (var table in doc.Tables)
-                    {
-                        doc.Content = doc.Content + $" - {table.Name}\n";
-                        TreeOrganize(table);
-                    }
-                }
-            }
         }
 
-        public IContent SearchTables(string key)
+        public Tables SearchTables(string key)
         {
-            IContent result;
+            Tables result;
 
             foreach(var doc in DocsList)
             {
                 if(doc.Key == key)
                     return doc;
 
-                foreach (var table in doc.Tables)
+                foreach (var table in doc.Table)
                 {
                     result = TablesReader(table, key);
                     if(result != null) return result;
@@ -91,26 +77,13 @@ namespace MVVMTest2.ViewModels
             if(tables.Key == key)
                 return tables;
 
-            foreach(var sstab in tables.SousTables)
+            foreach(var sstab in tables.Table)
             {
                 var res = TablesReader(sstab, key);
                 if(res != null) return res;
             }
 
             return null;
-        }
-
-        private void TreeOrganize(Tables tables)
-        {
-            if (tables.Content == string.Empty || tables.Content == null)
-            {
-                tables.Content = $"Sous-Tables de \"{tables.Name}\" :\n\n";
-                foreach (var s in tables.SousTables)
-                    tables.Content = tables.Content + $" - {s.Name}\n";
-            }
-
-            foreach (var s in tables.SousTables)
-                TreeOrganize(s);
         }
     }
 }
