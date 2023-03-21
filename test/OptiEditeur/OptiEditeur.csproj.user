@@ -7,19 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\AddLink.xaml.cs">
+    <Compile Update="Dialogs\AddLink.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ImageResize.xaml.cs">
+    <Compile Update="Dialogs\ImageResize.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\KeyAlert.xaml.cs">
+    <Compile Update="Dialogs\KeyAlert.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\KeyManager.xaml.cs">
+    <Compile Update="Dialogs\KeyManager.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\NewDocs.xaml.cs">
+    <Compile Update="Dialogs\NewDocs.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\TablesGridView.xaml.cs">
@@ -33,19 +33,19 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\AddLink.xaml">
+    <Page Update="Dialogs\AddLink.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\ImageResize.xaml">
+    <Page Update="Dialogs\ImageResize.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\KeyAlert.xaml">
+    <Page Update="Dialogs\KeyAlert.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\KeyManager.xaml">
+    <Page Update="Dialogs\KeyManager.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\NewDocs.xaml">
+    <Page Update="Dialogs\NewDocs.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\TablesGridView.xaml">

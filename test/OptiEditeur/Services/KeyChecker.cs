@@ -22,11 +22,10 @@ namespace OptiEditeur.Services
             ObservableCollection<string> toAdd = new();
             var res = keys.Where(x => !list.Contains(x)).ToList();
             foreach (var r in res) toAdd.Add(r);
-
             return toAdd;
         }
 
-        public static ObservableCollection<string> CheckKeyToDelete(ObservableCollection<Tables> docs, List<string> keys)
+        public static ObservableCollection<string> CheckKeyToRemove(ObservableCollection<Tables> docs, List<string> keys)
         {
             ObservableCollection<string> list = new();
             foreach (var table in docs)
@@ -48,13 +47,26 @@ namespace OptiEditeur.Services
         private static List<Tables> ContentReader(Tables tables)
         {
             List<Tables> result = new() { tables };
-
             foreach(var st in tables.Table)
             {
                 var content = ContentReader(st);
                 foreach(var res in content) result.Add(res);
             }
+            return result;
+        }
 
+        public static List<string> KeyListing(ObservableCollection<Tables> tables)
+        {
+            List<string> result = new();
+            foreach(var table in tables)
+            {
+                result.Add(table.Key);
+                if(table.Table.Count > 0)
+                {
+                    var content = KeyListing(table.Table);
+                    foreach(var res in content) result.Add(res);
+                }
+            }
             return result;
         }
     }

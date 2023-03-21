@@ -9,15 +9,14 @@
     <Grid>
         <DockPanel>
             <TextBlock DockPanel.Dock="Top" Text="Recherche par nom ou clé :" Margin="5"/>
-            <TextBox DockPanel.Dock="Top" x:Name="searchBox" Margin="5"/>
+            <TextBox DockPanel.Dock="Top" x:Name="searchBox" Margin="5" TextChanged="SearchBox_TextChanged"/>
             <DataGrid DockPanel.Dock="Bottom"
                       x:Name="gridView"
                       ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}"
                       AutoGenerateColumns="False"
                       IsReadOnly="True"
                       SelectionMode="Single"
-                      SelectionChanged="gridView_SelectionChanged"
-                      Loaded="gridView_Loaded">
+                      SelectionChanged="gridView_SelectionChanged">
                 <DataGrid.Columns>
                     <DataGridTextColumn x:Name="key" Header="Clé" Binding="{Binding Path=Key}"/>
                     <DataGridTextColumn x:Name="name" Header="Nom" Binding="{Binding Path=Name}"/>

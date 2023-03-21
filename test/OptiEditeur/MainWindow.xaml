@@ -56,9 +56,6 @@
                 <MenuItem Header="Ajouter une clé existante" Click="AddKey"/>
                 <MenuItem Header="Supprimer une clé" Click="DeleteKey"/>
             </MenuItem>
-            <MenuItem x:Name="helpMenu" Header="?">
-                <MenuItem Header="Aide" Click="Help"/>
-            </MenuItem>
         </Menu>
         
         <!--TabControl-->
@@ -75,10 +72,10 @@
                     </Style>
                 </TabControl.Resources>
                 <TabItem Header="Sommaire">
-                    <Views:TablesTreeView x:Name="tablesTreeView"/>
+                    <Views:TablesTreeView x:Name="tablesTreeView" DataContext="{Binding Path=DocsList}"/>
                 </TabItem>
                 <TabItem Header="Recherche">
-                    <Views:TablesGridView x:Name="tablesGridView" DataContext="{Binding Path=ListTables}"/>
+                    <Views:TablesGridView x:Name="tablesGridView" DataContext="{Binding Path=TablesList}"/>
                 </TabItem>
             </TabControl>
 

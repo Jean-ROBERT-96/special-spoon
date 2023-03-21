@@ -23,9 +23,9 @@ namespace OptiEditeur.Views
     /// </summary>
     public partial class TablesGridView : UserControl
     {
-        private MainWindow _mainWindow;
+        private MainWindow main;
 
-        public static readonly DependencyProperty CurrentContentProperty =
+        public static readonly DependencyProperty ContentProperty =
             DependencyProperty.Register(
                 "CurrentContent",
                 typeof(Tables),
@@ -34,13 +34,13 @@ namespace OptiEditeur.Views
 
         public Tables CurrentContent
         {
-            get => (Tables)GetValue(CurrentContentProperty);
-            set => SetValue(CurrentContentProperty, value);
+            get => (Tables)GetValue(ContentProperty);
+            set => SetValue(ContentProperty, value);
         }
 
         public TablesGridView()
         {
-            _mainWindow = (MainWindow)Application.Current.MainWindow;
+            main = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
         }
 
@@ -50,9 +50,15 @@ namespace OptiEditeur.Views
                 CurrentContent = (Tables)e.AddedItems[0];
         }
 
-        private void gridView_Loaded(object sender, RoutedEventArgs e)
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            //DataContext = _mainWindow.DataContext.ListTables;
+            if (searchBox.Text.Length > 0)
+                gridView.ItemsSource = main.DataContext.TablesList;
+            else
+            {
+                gridView.ItemsSource = main.DataContext.TablesList.Where(x => x.Key.Contains(searchBox.Text, StringComparison.OrdinalIgnoreCase) ||
+                                                                              x.Name.Contains(searchBox.Text, StringComparison.OrdinalIgnoreCase));
+            }
         }
     }
 }

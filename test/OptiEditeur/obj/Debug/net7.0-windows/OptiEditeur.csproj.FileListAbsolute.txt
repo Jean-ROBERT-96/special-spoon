@@ -12,10 +12,6 @@ C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\bin\Debug\net7.0-windo
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\bin\Debug\net7.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur.csproj.AssemblyReference.cache
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\MainWindow.g.cs
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\AddLink.g.cs
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\KeyAlert.g.cs
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\KeyManager.g.cs
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\NewDocs.g.cs
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\TablesGridView.g.cs
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\TablesTreeView.g.cs
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\App.g.cs
@@ -24,10 +20,6 @@ C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windo
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur_MarkupCompile.cache
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur_MarkupCompile.lref
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\MainWindow.baml
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\AddLink.baml
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\KeyAlert.baml
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\KeyManager.baml
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\NewDocs.baml
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\TablesGridView.baml
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\TablesTreeView.baml
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur.g.resources
@@ -41,5 +33,13 @@ C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windo
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur.pdb
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\OptiEditeur.genruntimeconfig.cache
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\ref\OptiEditeur.dll
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\ImageResize.g.cs
-C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Views\ImageResize.baml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\AddLink.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\ImageResize.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\KeyAlert.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\KeyManager.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\NewDocs.g.cs
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\AddLink.baml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\ImageResize.baml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\KeyAlert.baml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\KeyManager.baml
+C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\obj\Debug\net7.0-windows\Dialogs\NewDocs.baml

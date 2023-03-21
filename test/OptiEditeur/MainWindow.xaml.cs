@@ -36,7 +36,8 @@ namespace OptiEditeur
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string[] path;
+        private string[] filePath;
+        private string directoryPath;
         private static bool navigate;
         private int selectStart = -1;
         private int selectLengh;
@@ -44,7 +45,6 @@ namespace OptiEditeur
         public static RoutedCommand InsertMarkCommand = new();
         public static RoutedCommand InsertMarkLinkCommand = new();
         public static RoutedCommand InsertMarkImageCommand = new();
-        public static RoutedCommand TablesExistCommand = new();
 
         public new TablesViewModel DataContext
         {
@@ -72,34 +72,26 @@ namespace OptiEditeur
                 Multiselect = true
             };
 
-            bool? result = fileDialog.ShowDialog();
-
-            if (result == true)
+            if ((bool)fileDialog.ShowDialog())
             {
-                path = fileDialog.FileNames;
-                this.DataContext.InitValue(path);
+                filePath = fileDialog.FileNames;
+                directoryPath = System.IO.Path.GetDirectoryName(filePath[0]);
+                DataContext.InitValue(filePath);
             }
         }
 
         private void Save(object sender, RoutedEventArgs e)
         {
-            DataContext.SaveValue(path);
+            DataContext.SaveValue(directoryPath);
         }
 
         private void SaveAs(object sender, RoutedEventArgs e)
         {
             var explorer = new FolderBrowserDialog();
-            var ok = explorer.ShowDialog();
-
-            if (ok == System.Windows.Forms.DialogResult.OK)
+            if (explorer.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                for (int i = 0; i < path.Count(); i++)
-                {
-                    var split = path[i].Split('\\');
-                    var newPath = $"{explorer.SelectedPath}\\{split.Last()}";
-                    path[i] = newPath;
-                }
-                DataContext.SaveValue(path);
+                directoryPath = explorer.SelectedPath;
+                DataContext.SaveValue(directoryPath);
             }
         }
 
@@ -112,19 +104,12 @@ namespace OptiEditeur
 
         private void AddKey(object sender, RoutedEventArgs e)
         {
-            KeyManager manager = new(0);
-            manager.ShowDialog();
+            KeyManager.Show(0);
         }
 
         private void DeleteKey(object sender, RoutedEventArgs e)
         {
-            KeyManager manager = new(1);
-            manager.ShowDialog();
-        }
-
-        private void Help(object sender, RoutedEventArgs e)
-        {
-
+            KeyManager.Show(1);
         }
         #endregion
 

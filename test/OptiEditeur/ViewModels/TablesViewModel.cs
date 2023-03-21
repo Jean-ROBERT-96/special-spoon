@@ -10,34 +10,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Forms;
+using MessageBox = System.Windows.MessageBox;
 
 namespace OptiEditeur.ViewModels
 {
     public class TablesViewModel : INotifyPropertyChanged
     {
-        private ObservableCollection<Tables> _tableList = new();
+        private ObservableCollection<Tables> _docsList = new();
         private string[] _path;
         private List<string> _keyList;
         private ObservableCollection<string> _keyToAdd;
-        private ObservableCollection<string> _keyToDelete;
+        private ObservableCollection<string> _keyToRemove;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         #region PublicVar
-        public ObservableCollection<Tables> TableList
+        public ObservableCollection<Tables> DocsList
         {
-            get => _tableList;
+            get => _docsList;
             set
             {
-                _tableList = value;
-                NotifyPropertyChanged(nameof(TableList));
-                NotifyPropertyChanged(nameof(ListTables));
+                _docsList = value;
+                NotifyPropertyChanged(nameof(DocsList));
             }
         }
 
-        public ObservableCollection<Tables> ListTables
+        public ObservableCollection<Tables> TablesList
         {
-            get => TablesListing(TableList);
+            get => TablesListing(DocsList);
         }
 
         public string[] Path
@@ -70,13 +71,13 @@ namespace OptiEditeur.ViewModels
             }
         }
 
-        public ObservableCollection<string> KeyToDelete
+        public ObservableCollection<string> KeyToRemove
         {
-            get => _keyToDelete;
+            get => _keyToRemove;
             set
             {
-                _keyToDelete = value;
-                NotifyPropertyChanged(nameof(KeyToDelete));
+                _keyToRemove = value;
+                NotifyPropertyChanged(nameof(KeyToRemove));
             }
         }
 
@@ -84,71 +85,81 @@ namespace OptiEditeur.ViewModels
 
         public void InitValue(string[] path)
         {
-            TableList.Clear();
+            DocsList.Clear();
             KeyList = new();
             var allKeys = File.ReadAllLines("./Ressources/KeyList.txt").ToList();
+            List<string> usedKeys = new();
 
             foreach(var file in path)
             {
-                TableList.Add(DocsSerializer.TableDeserialize(file));
-                var result = allKeys.Where(x => x.StartsWith(TableList.Last().Key));
-                foreach(var key in result) KeyList.Add(key);
+                DocsList.Add(DocsSerializer.TablesDeserialize(file));
+                usedKeys = allKeys.Where(x => x.StartsWith(DocsList.Last().Key)).ToList();
+                KeyList = KeyChecker.KeyListing(DocsList.Last().Table);
             }
 
-            KeyToAdd = KeyChecker.CheckKeyToAdd(TableList, KeyList);
-            KeyToDelete = KeyChecker.CheckKeyToDelete(TableList, KeyList);
+            KeyToAdd = KeyChecker.CheckKeyToAdd(DocsList, usedKeys);
+            KeyToRemove = KeyChecker.CheckKeyToRemove(DocsList, usedKeys);
 
             if(KeyToAdd.Count > 0 && KeyAlert.Show(0, KeyToAdd))
             {
                 foreach(var key in KeyToAdd)
-                    TableList.AddChild(key);
+                    DocsList.AddChild(key);
 
                 KeyToAdd.Clear();
             }
 
-            if(KeyToDelete.Count > 0 && KeyAlert.Show(1, KeyToDelete))
+            if(KeyToRemove.Count > 0 && KeyAlert.Show(1, KeyToRemove))
             {
-                foreach (var key in KeyToDelete)
+                foreach (var key in KeyToRemove)
                 {
-                    foreach(var table in TableList)
-                        TableList.DeleteChild(x => x.Key == key);
+                    foreach(var table in DocsList)
+                        DocsList.RemoveChild(x => x.Key == key);
                 }
-                KeyToDelete.Clear();
+                KeyToRemove.Clear();
             }
-            NotifyPropertyChanged(nameof(ListTables));
+            else if(KeyToRemove.Count > 0)
+                KeyToRemove = KeyList.Where(x => !x.Equals(KeyToRemove)).ToObservableCollection();
 
-            if (KeyToAdd.Count == 0 && KeyToDelete.Count == 0)
+            if (KeyToAdd.Count == 0 && KeyToRemove.Count == 0)
+            {
                 MessageBox.Show("Vos documents sont à jours.", "Documents à jours", MessageBoxButton.OK, MessageBoxImage.Information);
+                KeyToRemove = KeyList.ToObservableCollection();
+            }
+
+            NotifyPropertyChanged(nameof(DocsList));
+            NotifyPropertyChanged(nameof(TablesList));
         }
 
         public void CreateValue(string path)
         {
-            TableList.Clear();
+            DocsList.Clear();
             KeyList = File.ReadAllLines("./Ressources/KeyList.txt").ToList();
             KeyList.Sort();
+            KeyToAdd = new();
+            KeyToRemove = new();
 
             foreach(var key in KeyList)
             {
                 var split = new List<string>(key.Split('.'));
                 bool tableExist = false;
-                foreach (var table in TableList)
+                foreach (var table in DocsList)
                 {
                     if (table.Key == split[0])
                         tableExist = true;
                 }
 
                 if (!tableExist)
-                    TableList.Add(new Tables { Key = split[0], Name = split[0] });
+                    DocsList.Add(new Tables { Key = split[0], Name = split[0] });
                 
                 if(split.Count > 1)
                 {
                     var keyTableSplit = split.GetRange(0, 2);
                     var keyTable = String.Join('.', keyTableSplit);
-                    foreach (var doc in TableList)
+                    foreach (var doc in DocsList)
                     {
                         if (doc.Key == split[0])
                         {
-                            Tables? exist = doc.Table.Where(x => x.Key == keyTable).FirstOrDefault();
+                            Tables exist = doc.Table.Where(x => x.Key == keyTable).FirstOrDefault();
                             if (exist != null)
                             {
                                 int index = doc.Table.IndexOf(exist);
@@ -161,39 +172,28 @@ namespace OptiEditeur.ViewModels
                     }
                 }
             }
-            DocsSerializer.TableSerialize(path, TableList);
-            NotifyPropertyChanged(nameof(ListTables));
+
+            NotifyPropertyChanged(nameof(DocsList));
+            NotifyPropertyChanged(nameof(TablesList));
         }
 
-        public void SaveValue(string[] path)
+        public void SaveValue(string path)
         {
-            bool fileExist = true;
-            foreach (var p in path)
-            {
-                if (!File.Exists(p) && !p.Contains(".xml"))
-                    fileExist = false;
-            }
+            bool fileExist = Directory.Exists(path);
 
             if (!fileExist)
             {
-                var explorer = new System.Windows.Forms.FolderBrowserDialog();
-                explorer.ShowDialog();
-                if (explorer.SelectedPath != null)
+                var explorer = new FolderBrowserDialog();
+                if (explorer.ShowDialog() == DialogResult.OK)
                 {
-                    foreach (var p in path)
-                    {
-                        var split = p.Split('\\');
-                        p.Replace(p, $"{explorer.SelectedPath}\\{split.Last()}");
-                    }
+                    path = explorer.SelectedPath;
                     fileExist = true;
                 }
             }
 
             if (fileExist)
             {
-                foreach (var p in path)
-                    DocsSerializer.TableSerialize(p, TableList);
-
+                DocsSerializer.TableSerialize(path, DocsList);
                 MessageBox.Show("La documentation a été sauvegardée.", "Sauvegarde réussi", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
@@ -213,7 +213,7 @@ namespace OptiEditeur.ViewModels
             return list;
         }
 
-        private Tables TableWriter(int count, List<string> keySplit, Tables? table = null)
+        private Tables TableWriter(int count, List<string> keySplit, Tables table = null)
         {
             if (table == null)
             {
@@ -227,7 +227,7 @@ namespace OptiEditeur.ViewModels
             {
                 var keyTableSplit = keySplit.GetRange(0, count);
                 var keyTable = String.Join('.', keyTableSplit);
-                Tables? exist = table.Table.Where(x => x.Key == keyTable).FirstOrDefault();
+                Tables exist = table.Table.Where(x => x.Key == keyTable).FirstOrDefault();
                 if (exist != null)
                 {
                     int index = table.Table.IndexOf(exist);

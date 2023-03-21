@@ -22,9 +22,7 @@ namespace OptiEditeur.Views
     /// </summary>
     public partial class TablesTreeView : UserControl
     {
-        private MainWindow _mainWindow;
-
-        public static readonly DependencyProperty CurrentContentProperty =
+        public static readonly DependencyProperty ContentProperty =
             DependencyProperty.Register(
                 "CurrentContent",
                 typeof(Tables),
@@ -33,29 +31,18 @@ namespace OptiEditeur.Views
 
         public Tables CurrentContent
         {
-            get => (Tables)GetValue(CurrentContentProperty);
-            set => SetValue(CurrentContentProperty, value);
+            get => (Tables)GetValue(ContentProperty);
+            set => SetValue(ContentProperty, value);
         }
 
         public TablesTreeView()
         {
-            _mainWindow = (MainWindow)Application.Current.MainWindow;
             InitializeComponent();
         }
 
-        private void treeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
             CurrentContent = (Tables)e.NewValue;
-        }
-
-        public void ActualizeContext()
-        {
-            DataContext = _mainWindow.DataContext.TableList;
-        }
-
-        private void treeView_Loaded(object sender, RoutedEventArgs e)
-        {
-            DataContext = _mainWindow.DataContext.TableList;
         }
     }
 }

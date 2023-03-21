@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\jean_\OneDrive\Documents\CSharp\test\OptiEditeur\App.xaml
-8-56731252
+8-411882368
 1121809423
-18103418578
-210-1102773737
-MainWindow.xaml;Views\AddLink.xaml;Views\ImageResize.xaml;Views\KeyAlert.xaml;Views\KeyManager.xaml;Views\NewDocs.xaml;Views\TablesGridView.xaml;Views\TablesTreeView.xaml;
+181378951040
+210-339362157
+Dialogs\AddLink.xaml;Dialogs\ImageResize.xaml;Dialogs\KeyAlert.xaml;Dialogs\KeyManager.xaml;Dialogs\NewDocs.xaml;MainWindow.xaml;Views\TablesGridView.xaml;Views\TablesTreeView.xaml;
 
-True
+False
 

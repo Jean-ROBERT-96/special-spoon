@@ -11,11 +11,12 @@ using System.Xml.Serialization;
 
 namespace OptiEditeur.Services
 {
-    public class DocsSerializer
+    public static class DocsSerializer
     {
-        public static Tables TableDeserialize(string path)
+        private static XmlSerializer serializer = new(typeof(Tables));
+
+        public static Tables TablesDeserialize(string path)
         {
-            var serializer = new XmlSerializer(typeof(Tables));
             using(var reader = new FileStream(path, FileMode.Open))
             {
                 var doc = (Tables)serializer.Deserialize(reader);
@@ -31,33 +32,19 @@ namespace OptiEditeur.Services
                 table.Content = Regex.Replace(table.Content, "<p>|</p>", string.Empty);
                 table.Content = Regex.Replace(table.Content, "<br>", "\r\n");
             }
-
             foreach (var st in table.Table)
                 MarkDeserialize(st);
         }
 
         public static void TableSerialize(string path, ObservableCollection<Tables> docs)
         {
-            List<string> split = new(path.Split('\\'));
-            var serializer = new XmlSerializer(typeof(Tables));
-
             foreach(var table in docs)
             {
                 MarkSerialize(table);
-                if(!path.Contains(".xml"))
+                var docName = Path.Combine(path, table.Key + ".xml");
+                using (var writer = new StreamWriter(docName, false, Encoding.Unicode))
                 {
-                    var result = Path.Combine(path, table.Key + ".xml");
-                    using(var writer = new StreamWriter(result, false, Encoding.Unicode))
-                    {
-                        serializer.Serialize(writer, table);
-                    }
-                }
-                else if(split.Last().Contains(table.Key) && path.Contains(".xml"))
-                {
-                    using (var writer = new StreamWriter(path, false, Encoding.Unicode))
-                    {
-                        serializer.Serialize(writer, table);
-                    }
+                    serializer.Serialize(writer, table);
                 }
                 MarkDeserialize(table);
             }
